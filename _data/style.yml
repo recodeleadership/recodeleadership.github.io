@@ -1,7 +1,7 @@
 #Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+highlight: "#bed7d5" # teal #"#54bfff"
+white: "#2573a4" #blue #"#FF0000"
+black: "#4910bc" # purple #"#000"
 
 #Image Customization
 header-image: "../img/header.png"
@@ -11,6 +11,7 @@ contact-image: "../img/contact.png"
 
 # Add custom fonts
 fonts_urls:
+    - "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
     - "https://fonts.googleapis.com/css?family=Kaushan+Script"
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
@@ -18,11 +19,11 @@ fonts_urls:
 
 # Set custom fonts
 fonts:
-  - name: "Montserrat"
+  - name: "Poppins" #"Montserrat"
     for: "heading"
   - name: "Kaushan Script"
     for: "script"
-  - name: "Droid Serif"
+  - name: "Poppins" #"Droid Serif"
     for: "serif"
-  - name: "Roboto Slab"
+  - name: "Poppins" #"Roboto Slab"
     for: "body"
