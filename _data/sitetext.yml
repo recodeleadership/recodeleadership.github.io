@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: For quiet leaders who are ready to lead with confidence so they can be recognized and valued for who they truly are.
+    # text: It's Nice To Meet You
+    button: Schedule a Career Strategy Call
     buttonlink: "#services"
 
   services:
@@ -21,11 +21,11 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Amplifying Your Strengths Session (50-minute 1:1)"
+        desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "RISE Leadership Program (3 or 6 Months)"
+        desc: "A deeper journey for quiet leaders ready to grow their presence, visbility, and confidence -- without sacrificing their calm, integrity, or values."
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
