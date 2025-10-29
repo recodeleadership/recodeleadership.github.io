@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: $primary;
+  color: #1cabb0;//$primary;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken(#1cabb0, 10%);//($primary, 10%);
   }
 }
 
 .text-primary {
-  color: $primary !important;
+  color: #1cabb0 !important;//$primary !important;
 }
 
 h1,
@@ -53,12 +53,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: #1cabb0;//$primary;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: #1cabb0;//$primary;
   text-shadow: none;
 }
 
