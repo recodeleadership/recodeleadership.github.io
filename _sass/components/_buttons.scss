@@ -10,17 +10,17 @@
 }
 
 .btn-primary {
-  background-color: #1cabb0;//$primary;
-  border-color: #1cabb0;//$primary;
+  background-color: deeppink;//#1cabb0;//$primary;
+  border-color: deepskyblue;//#1cabb0;//$primary;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken(#1cabb0, 7.5%) !important;//darken($primary, 7.5%) !important;
-    border-color: darken(#1cabb0, 7.5%) !important;//darken($primary, 7.5%) !important;
-    color: white;
+    background-color: darken(green, 7.5%) !important;//darken($primary, 7.5%) !important; #1cabb0
+    border-color: darken(indianred, 7.5%) !important;//darken($primary, 7.5%) !important; #1cabb0
+    color: khaki;//white;
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem lawngreen !important;//rgba(254, 209, 55, 0.5) !important;
   }
 }

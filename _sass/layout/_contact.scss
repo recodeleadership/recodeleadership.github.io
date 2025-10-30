@@ -1,11 +1,11 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
+  background-color: thistle;//$gray-900;
   background-image: url("#{$contact-image}");
   background-repeat: no-repeat;
   background-position: center;
   .section-heading {
-    color: $white;
+    color: teal;//$white;
   }
   .form-group {
     margin-bottom: 25px;
@@ -21,27 +21,27 @@ section#contact {
     }
   }
   .form-control:focus {
-    border-color: #1cabb0;//primary;
+    border-color: steelblue;//#1cabb0;//primary;
     box-shadow: none;
   }
   ::-webkit-input-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: seagreen;//$gray-400;
     @include heading-font;
   }
   :-moz-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: salmon;//$gray-400;
     @include heading-font;
   }
   ::-moz-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: royalblue;//$gray-400;
     @include heading-font;
   }
   :-ms-input-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: plum;//$gray-400;
     @include heading-font;
   }
 }

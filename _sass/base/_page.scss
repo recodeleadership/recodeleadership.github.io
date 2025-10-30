@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: #1cabb0;//$primary;
-  &:hover {
-    color: darken(#1cabb0, 10%);//($primary, 10%);
+  color: coral;//#1cabb0;//$primary;
+  &:hover { //#1cabb0
+    color: darken(coral, 10%);//($primary, 10%);
   }
 }
 
 .text-primary {
-  color: #1cabb0 !important;//$primary !important;
+  color: crimson !important;//#1cabb0 !important;//$primary !important;
 }
 
 h1,
@@ -53,12 +53,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: #1cabb0;//$primary;
+  background: cornflowerblue;//#1cabb0;//$primary;
   text-shadow: none;
 }
 
 ::selection {
-  background: #1cabb0;//$primary;
+  background: darkgoldenrod;//#1cabb0;//$primary;
   text-shadow: none;
 }
 
