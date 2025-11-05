@@ -1,14 +1,14 @@
 // Styling for the navbar
 #mainNav {
-  background-color: #ebdcf9;//AliceBlue;// black;//$gray-900;
+  background-color: AliceBlue;//#ebdcf9;//AliceBlue;// black;//$gray-900;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #4910bc;//text of menu//Aqua;
+    color: Aqua;//#4910bc;//text of menu//Aqua;
     border: 0;
-    background-color: #1cabb0; //menu button//orchid;//#1cabb0;//$primary;
+    background-color: orchid;//#1cabb0; //menu button//orchid;//#1cabb0;//$primary;
     @include heading-font;
   }
   .navbar-brand {
@@ -18,7 +18,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken(#ebdcf9, 10%);//darken(saddlebrown, 10%);//darken($primary, 10%);#1cabb0
+      color: darken(saddlebrown, 10%);//darken(#ebdcf9, 10%);//darken(saddlebrown, 10%);//darken($primary, 10%);#1cabb0
     }
   }
   .navbar-nav {
@@ -28,11 +28,11 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: #4910bc; //Text of navbaraquamarine;// white;
+        color: aquamarine;//#4910bc; //Text of navbaraquamarine;// white;
         @include heading-font;
         &.active,
         &:hover {
-          color: #24085b;//blueviolet;//#1cabb0;//$primary;
+          color: blueviolet;//#24085b;//blueviolet;//#1cabb0;//$primary;
         }
       }
     }
@@ -46,7 +46,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #ebdcf9; //lighter purple navbar rebeccapurple;//transparent;
+    background-color: rebeccapurple;//#ebdcf9; //lighter purple navbar rebeccapurple;//transparent;
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -63,7 +63,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #ebdcf9;//brown;//#bed7d5;//$gray-900;
+      background-color: brown;//#ebdcf9;//brown;//#bed7d5;//$gray-900;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
