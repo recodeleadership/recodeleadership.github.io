@@ -2,10 +2,10 @@
 source "https://rubygems.org"
 
 # Jekyll and your theme
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.1"
 gem "jekyll-agency", "~> 1.1.0"
 
-# Optional plugins (if needed)
+# Optional plugins
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
