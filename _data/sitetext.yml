@@ -11,24 +11,26 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: For quiet leaders who are ready to lead with confidence so they can be recognized and valued for who they truly are.
+    title: >
+      For quiet leaders who are ready to lead with confidence 
+      so they can be recognized and valued for who they truly are.
     # text: It's Nice To Meet You
-    button: Schedule a Career Strategy Call
+    button: Learn More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    # text: "Lorem ipsum"
     section: services
     list:
-      - title: "Amplifying Your Strengths Session (50-minute 1:1)"
+      - title: "[Amplifying Your Strengths Session (50-minute 1:1)](/amplifying-your-strengths)"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "RISE Leadership Program (3 or 6 Months)"
+      - title: "[RISE 1:1 Leadership Program (3 or 6 Months)](/rise-leadership-program)"
         desc: "A deeper journey for quiet leaders ready to grow their presence, visbility, and confidence -- without sacrificing their calm, integrity, or values."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "[RISE Together Group Coaching Program (3 Months)](/rise-together)"
+        desc: "A group experience grounded in the RISE Framework, designed to help quiet leaders rise with clarity and confidence — together."
         icon: fab fa-markdown
 
   portfolio:
@@ -98,36 +100,36 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Amy Mok"
+        role: "Founder and Leadership & Executive Coach"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://linkedin.com/in/amymok
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      # - name: "Larry Parker"
+      #   role: "Lead Marketer"
+      #   image: assets/img/team/2.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+      # - name: "Diana Perterson"
+      #   role: "Lead Developer"
+      #   image: assets/img/team/500x500.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
