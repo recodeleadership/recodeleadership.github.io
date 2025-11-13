@@ -23,13 +23,13 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum"
     section: services
     list:
-      - title: "[Amplifying Your Strengths Session (50-minute 1:1)](/amplifying-your-strengths)"
+      - title: "[Amplifying Your Strengths (50-minute 1:1)](/amplifying-your-strengths)"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "[RISE 1:1 Leadership Program (3 or 6 Months)](/rise-leadership-program)"
+      - title: "[RISE 1:1 (3 or 6 Months)](/rise)"
         desc: "A deeper journey for quiet leaders ready to grow their presence, visbility, and confidence -- without sacrificing their calm, integrity, or values."
         icon: fas fa-laptop
-      - title: "[RISE Together Group Coaching Program (3 Months)](/rise-together)"
+      - title: "[RISE Together (3 Months)](/rise-together)"
         desc: "A group experience grounded in the RISE Framework, designed to help quiet leaders rise with clarity and confidence — together."
         icon: fab fa-markdown
 
@@ -102,12 +102,12 @@ en: &DEFAULT_EN
     people:
       - name: "Amy Mok"
         role: "Founder and Leadership & Executive Coach"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/amymok.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
           - url: https://linkedin.com/in/amymok
             icon: fab fa-linkedin-in
       # - name: "Larry Parker"

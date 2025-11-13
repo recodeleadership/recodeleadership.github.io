@@ -16,9 +16,9 @@ theme: jekyll-agency
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Recode Leadership
+title      : Recode Leadership LLC
 email      : me@email.com #this is also the email contact forms will go to
-description: "Recode Leadership, helping and guiding quiet leaders to lead with confidence so they can be recognized and valued for who they truly are."
+description: "Recode Leadership LLC, helping and guiding quiet leaders to lead with confidence so they can be recognized and valued for who they truly are."
 author     : Amy Mok
 logo:     #optional, defaults to site title
   path: assets\img\recodeleadership.png
