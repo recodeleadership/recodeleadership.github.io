@@ -34,7 +34,7 @@ en: &DEFAULT_EN
         #icon: fab fa-markdown
       - title: "[Speaking & Workshops](/services/speaking-workshop)"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
-      - title: "Need something more tailored?](/#contact)"
+      - title: "[Need something more tailored?](/#contact)"
         desc: Let's connect and explore what support would help you and your team move forward.
   portfolio:
     title: "Portfolio"
