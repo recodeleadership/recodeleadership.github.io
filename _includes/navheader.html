@@ -1,4 +1,4 @@
-<header>
+<header class="masthead">
 <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -48,7 +48,7 @@
   
   <!-- Header -->
   {% if site.locale and site.locale != "" and site.locale != nil %}
-  <div class="masthead"><!-- this was header-->
+  <!--<header class="masthead">-->
     <div class="container">
       <div class="intro-text">
 	  {%- if site.data.sitetext[site.locale].header.title -%}
@@ -62,9 +62,9 @@
 	  {%- endif -%}
       </div>
     </div>
-  </div><!--</header>-->
+  </header>
   {% else %}
-  <div class="masthead"><!--this is header-->
+  <!--<header class="masthead">-->
     <div class="container">
       <div class="intro-text">
 	  {%- if site.data.sitetext.header.title -%}
@@ -78,7 +78,6 @@
 	  {%- endif -%}
       </div>
     </div>
-  </div><!--</header>-->
+  </header>
   {% endif %}
-</header>
-<!-- End Header -->
+  <!-- End Header -->
