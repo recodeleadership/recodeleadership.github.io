@@ -30,13 +30,15 @@
   border-radius: 0.5rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-width: 700px;
+  margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
-/* Carousel control arrows using a colored SVG */
+/* Carousel control arrows using Unicode arrows */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-image: none; /* Remove default arrow */
+  background-image: none;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -45,7 +47,7 @@
 
 /* Left arrow */
 .carousel-control-prev-icon::before {
-  content: '\276E'; /* Unicode for left angle quote ‹ */
+  content: '\276E';
   color: #4a10bc;
   font-size: 2rem;
   font-weight: bold;
@@ -57,7 +59,7 @@
 
 /* Right arrow */
 .carousel-control-next-icon::before {
-  content: '\276F'; /* Unicode for right angle quote › */
+  content: '\276F';
   color: #4a10bc;
   font-size: 2rem;
   font-weight: bold;
@@ -67,9 +69,9 @@
   transform: translate(-50%, -50%);
 }
 
-/* Indicators (dots) */
+/* Indicators (dots) - uniform size */
 .carousel-indicators li {
-  background-color: #4a10bc; /* Base color */
+  background-color: #4a10bc;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -78,7 +80,44 @@
 
 .carousel-indicators .active {
   background-color: #4a10bc;
-  width: 14px;
-  height: 14px;
-  border: 2px solid #4a10bc;
+  width: 12px;
+  height: 12px;
+  border: none;
+}
+
+/* Position arrows outside the box on desktop */
+@media (min-width: 768px) {
+  .carousel-control-prev {
+    left: -60px; /* move outside box */
+  }
+  .carousel-control-next {
+    right: -60px;
+  }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    font-size: 1.5rem;
+  }
+  .carousel-control-prev {
+    left: -10px;
+  }
+  .carousel-control-next {
+    right: -10px;
+  }
+  .testimonial-box {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-box {
+    padding: 1rem;
+  }
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    font-size: 1.2rem;
+  }
 }
