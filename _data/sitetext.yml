@@ -23,18 +23,18 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum"
     section: services
     list:
-      - title: "[Amplifying Your Strengths (50-minute 1:1)](/services/amplifying-your-strengths)"
+      - title: "[Amplifying Your Strengths (50-minute 1:1) ➜ 🡲 🡢	🡪](/services/amplifying-your-strengths)"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
         #icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "[RISE 1:1 (3 or 6 Months)](/services/rise)"
+      - title: "[RISE 1:1 (3 or 6 Months) ➜ 🡲 🡢	🡪](/services/rise)"
         desc: "A deeper journey for quiet leaders ready to grow their presence, visibility, and confidence -- without sacrificing their calm, integrity, or values."
         #icon: fas fa-laptop
-      - title: "[RISE Together (3 Months)](/services/rise-together)"
+      - title: "[RISE Together (3 Months) ➜ 🡲 🡢	🡪](/services/rise-together)"
         desc: "A group experience grounded in the RISE Framework, designed to help quiet leaders rise with clarity and confidence — together."
         #icon: fab fa-markdown
-      - title: "[Speaking & Workshops](/services/speaking-workshop)"
+      - title: "[Speaking & Workshops ➜ 🡲 🡢	🡪](/services/speaking-workshop)"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
-      - title: "[Need something else?](/#contact)"
+      - title: "[Need something else? ➜ 🡲 🡢	🡪](/#contact)"
         desc: Let's connect and explore what support would help you and your team move forward.
   # portfolio:
   #   title: "Portfolio"
