@@ -1,12 +1,12 @@
-/* Box around each testimonial */
-.testimonial-box {
-  background-color: #fff;             /* White box */
-  padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: 700px;                   /* Centered box, not full width */
-  text-align: center;
-}
+// /* Box around each testimonial */
+// .testimonial-box {
+//   background-color: #fff;             /* White box */
+//   padding: 2rem;
+//   border-radius: 0.5rem;
+//   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+//   max-width: 700px;                   /* Centered box, not full width */
+//   text-align: center;
+// }
 
 // /* Optional: customize carousel arrows */
 // .carousel-control-prev-icon,
@@ -22,3 +22,27 @@
 // .carousel-indicators .active {
 //   background-color: #555;
 // }
+
+/* Box around each testimonial */
+.testimonial-box {
+  background-color: #fff;            /* White box */
+  padding: 2rem;                     /* Space inside */
+  border-radius: 0.5rem;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+  max-width: 700px;                  /* Limit width */
+  text-align: center;                /* Center text */
+}
+
+/* Optional: customize arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;   /* Dark arrow */
+}
+
+/* Indicators (dots) */
+.carousel-indicators li {
+  background-color: #333;   /* Default dot color */
+}
+.carousel-indicators .active {
+  background-color: #555;   /* Active dot */
+}
