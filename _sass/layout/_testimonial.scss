@@ -1,0 +1,25 @@
+/* Box around each testimonial */
+.testimonial-box {
+  background-color: #fff;             /* White box */
+  padding: 2rem;                      /* Space inside */
+  border-radius: 0.5rem;              /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+  max-width: 800px;                   /* Limit width */
+  text-align: center;                 /* Center text */
+}
+
+/* Carousel controls (arrows) */
+.custom-control-icon {
+  background-color: #333 !important;  /* Dark arrows */
+  border-radius: 50%;                 /* Circular background */
+  width: 40px;
+  height: 40px;
+}
+
+/* Carousel indicators (buttons) */
+.carousel-indicators [data-bs-target] {
+  background-color: #333;   /* Dark indicators */
+}
+.carousel-indicators .active {
+  background-color: #555;   /* Active indicator slightly lighter */
+}
