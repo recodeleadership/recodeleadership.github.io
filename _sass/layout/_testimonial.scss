@@ -13,12 +13,16 @@
   border-radius: 12px;
   padding: 30px;
   margin-bottom: 60px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08); /* floating shadow */
+  position: relative;
+  z-index: 2;
 }
 
 /* Arrows – keep them centered but OUTSIDE the text box */
 .custom-prev,
 .custom-next {
   width: 5%;
+  z-index: 3;
 }
 
 .custom-prev {
@@ -37,6 +41,7 @@
 /* Indicators */
 .custom-indicators {
   bottom: -30px;
+  z-index: 1;
 }
 
 .custom-indicators li {
