@@ -1,119 +1,60 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].testimonial.section | default: 'testimonial' }}">
-<div class="container">
-    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
-        <p>“Amy is a leadership coach with a unique ability to deeply listen. She is excellent in providing a reflective calming space for me to both process my thoughts and recognize what is most essential. Amy is also one of the most kind hearted people I know, and I am appreciative of our coaching sessions as each one provides a place for me to optimally integrate my learnings and to show up as both a highly self-aware human being and a well grounded leader.” - KingL, Executive Leadership & Global Scaling Coach</p>
-        </div>
-        <div class="carousel-item">
-            “Amy’s use of powerful questioning challenges me to think deeply and uncover insights I hadn’t considered, which helps me with my goals and motivations. Her ability to reframe perspectives enables me to see challenges in a more positive light, turning obstacles into opportunities for growth. The focus on mindset shifts has been transformative, as it helps me to use growth-oriented approach, and taking setbacks as learning experiences rather than failures.” – LizM, Data Scientist
-        <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
-        </div>
-        <div class="carousel-item">
-            <p>“Amy has been helpful in unfolding the challenges I face at work based on my developmental goals. She is resourceful, encouraging and able to provide constructive feedback to work on my strengths and weaknesses areas.” – ChristyT, Product Manager</p>
-        <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-</div>
-  <div class="container py-5">
-    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+<section class="bg-light page-section" id="{{ site.data.sitetext.testimonial.section | default: "testimonial" }}">
+  <div class="container">
 
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Testimonial text box -->
+      <div class="testimonial-box">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <p>
+              “Amy is a leadership coach with a unique ability to deeply listen. She is excellent in providing a reflective calming space...”
+              <br><strong>– KingL, Executive Leadership & Global Scaling Coach</strong>
+            </p>
+          </div>
+
+          <div class="carousel-item">
+            <p>
+              “Amy’s use of powerful questioning challenges me to think deeply and uncover insights...”
+              <br><strong>– LizM, Data Scientist</strong>
+            </p>
+          </div>
+
+          <div class="carousel-item">
+            <p>
+              “Amy has been helpful in unfolding the challenges I face at work based on my developmental goals...”
+              <br><strong>– ChristyT, Product Manager</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Arrows -->
+      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+      <!-- Indicators (outside the text box) -->
+      <ol class="carousel-indicators custom-indicators">
         <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#testimonialCarousel" data-slide-to="1"></li>
         <li data-target="#testimonialCarousel" data-slide-to="2"></li>
       </ol>
 
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy is a leadership coach with a unique ability to deeply listen. She is excellent in providing a reflective calming space for me to both process my thoughts and recognize what is most essential. Amy is also one of the most kind hearted people I know, and I am appreciative of our coaching sessions as each one provides a place for me to optimally integrate my learnings and to show up as both a highly self-aware human being and a well grounded leader.” - KingL</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy’s use of powerful questioning challenges me to think deeply and uncover insights I hadn’t considered, which helps me with my goals and motivations. Her ability to reframe perspectives enables me to see challenges in a more positive light, turning obstacles into opportunities for growth. The focus on mindset shifts has been transformative, as it helps me to use growth-oriented approach, and taking setbacks as learning experiences rather than failures.” – LizM</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy has been helpful in unfolding the challenges I face at work based on my developmental goals. She is resourceful, encouraging and able to provide constructive feedback to work on my strengths and weaknesses areas.” – ChristyT</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Controls -->
-      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
     </div>
+
   </div>
-    <!-- <div class="container py-5">
-    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="true"> -->
-      
-      <!-- Indicators (dots) -->
-      <!-- <div class="carousel-indicators">
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div> -->
-
-      <!-- Carousel items -->
-      <!-- <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy is a leadership coach with a unique ability to deeply listen. She is excellent in providing a reflective calming space for me to both process my thoughts and recognize what is most essential. Amy is also one of the most kind hearted people I know, and I am appreciative of our coaching sessions as each one provides a place for me to optimally integrate my learnings and to show up as both a highly self-aware human being and a well grounded leader.” - KingL</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy’s use of powerful questioning challenges me to think deeply and uncover insights I hadn’t considered, which helps me with my goals and motivations. Her ability to reframe perspectives enables me to see challenges in a more positive light, turning obstacles into opportunities for growth. The focus on mindset shifts has been transformative, as it helps me to use growth-oriented approach, and taking setbacks as learning experiences rather than failures.” – LizM</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="testimonial-box mx-auto">
-            <p>“Amy has been helpful in unfolding the challenges I face at work based on my developmental goals. She is resourceful, encouraging and able to provide constructive feedback to work on my strengths and weaknesses areas.” – ChristyT</p>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- Controls (arrows) -->
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-
-    </div>
-  </div> -->
 </section>
 {% else %}
 <section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">

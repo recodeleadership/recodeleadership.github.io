@@ -1,28 +1,59 @@
-/* Reset Bootstrap default indicator behavior */
-.carousel-indicators li {
+/* FIXED HEIGHT TESTIMONIAL BOX */
+.testimonial-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 50px;
+  min-height: 220px; /* Adjust if needed */
+  display: flex;
+  align-items: center;
+}
+
+/* Paragraph styling */
+.testimonial-box p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* ARROWS */
+.custom-arrow {
+  filter: invert(22%) sepia(81%) saturate(3517%) hue-rotate(255deg) brightness(85%) contrast(94%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%;
+}
+
+/* CENTER INDICATORS BELOW THE BOX */
+.custom-indicators {
+  bottom: -20px;
+}
+
+/* INDICATOR DOTS */
+.custom-indicators li {
   background-color: #4a10bc !important;
   width: 12px !important;
   height: 12px !important;
   border-radius: 50%;
-  margin: 0 6px !important;
-  opacity: 0.4; /* lighter when inactive */
-  transition: opacity 0.3s ease;
-  position: relative;
-  top: 0 !important;     /* fix vertical offset */
+  opacity: 0.4;
+  margin: 0 6px;
 }
 
-/* Active indicator — same size, darker color */
-.carousel-indicators .active {
-  background-color: #4a10bc !important;
+.custom-indicators .active {
   opacity: 1 !important;
-  width: 12px !important;
-  height: 12px !important;
-  margin-top: 0 !important;  /* ensure baseline */
-  top: 0 !important;
 }
 
-/* Remove Bootstrap hidden borders */
-.carousel-indicators li,
-.carousel-indicators .active {
-  border: none !important;
+/* RESPONSIVE FIXES */
+@media (max-width: 576px) {
+  .testimonial-box {
+    padding: 20px;
+    min-height: 260px; /* a bit taller for small screens */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 12%;
+  }
 }
