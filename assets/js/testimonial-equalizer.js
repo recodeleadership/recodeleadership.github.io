@@ -1,38 +1,31 @@
 document.addEventListener("DOMContentLoaded", function () {
-  function equalizeBoxHeights() {
-    const boxes = document.querySelectorAll("#testimonialCarousel .testimonial-box");
-    let maxHeight = 0;
+  function equalizeCarouselHeights() {
+    const carousels = document.querySelectorAll("#testimonialCarousel .carousel-inner");
+    carousels.forEach(inner => {
+      const items = inner.querySelectorAll(".carousel-item");
+      let maxHeight = 0;
 
-    boxes.forEach(box => {
-      const items = box.querySelectorAll(".carousel-item");
-      const originalDisplay = [];
-
-      // Temporarily show hidden items to measure
-      items.forEach((item, i) => {
-        originalDisplay[i] = item.style.display;
-        item.style.display = "block";
-      });
-
-      // Measure tallest item in this box
+      // Measure each item
       items.forEach(item => {
-        if (item.scrollHeight > maxHeight) maxHeight = item.scrollHeight;
+        // Temporarily show hidden items to measure
+        const prevDisplay = item.style.display;
+        item.style.display = "block";
+        const h = item.scrollHeight;
+        if (h > maxHeight) maxHeight = h;
+        item.style.display = prevDisplay || "";
       });
 
-      // Restore original display
-      items.forEach((item, i) => {
-        item.style.display = originalDisplay[i] || "";
-      });
+      // Apply max height to the carousel-inner
+      inner.style.minHeight = maxHeight + "px";
     });
-
-    // Apply max height to all boxes
-    boxes.forEach(box => { box.style.minHeight = maxHeight + "px"; });
   }
 
-  equalizeBoxHeights();
+  equalizeCarouselHeights();
 
+  // Recalculate on resize
   let resizeTimer;
   window.addEventListener("resize", function () {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(equalizeBoxHeights, 200);
+    resizeTimer = setTimeout(equalizeCarouselHeights, 200);
   });
 });
