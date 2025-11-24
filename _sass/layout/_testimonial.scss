@@ -16,6 +16,20 @@
   margin-bottom: 30px;
 }
 
+/* Center the text */
+.testimonial-box p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Add spacing + a clean break for the attribution */
+.testimonial-box p strong {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+
 /* --- Arrows outside the box --- */
 .custom-prev,
 .custom-next {
@@ -64,7 +78,22 @@
 }
 
 @media (max-width: 576px) {
-  .carousel-inner-wrapper { max-width: 100%; }
-  .testimonial-box { padding: 20px; }
-  // .custom-prev, .custom-next { display: none; }
+  /* Slightly narrower box */
+  .carousel-inner-wrapper {
+    max-width: 90%;
+  }
+
+  .testimonial-box {
+    padding: 20px;
+    margin: 0 auto 30px auto; /* keep centered */
+  }
+
+  /* Bring arrows inward (but keep them visible on mobile) */
+  .custom-prev {
+    left: -10px;   /* used to be -40px globally */
+  }
+
+  .custom-next {
+    right: -10px;  /* used to be -40px globally */
+  }
 }
