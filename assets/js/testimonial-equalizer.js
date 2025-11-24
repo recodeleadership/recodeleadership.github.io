@@ -3,23 +3,33 @@ document.addEventListener("DOMContentLoaded", function () {
     const boxes = document.querySelectorAll("#testimonialCarousel .testimonial-box");
     let maxHeight = 0;
 
-    // Reset first
-    boxes.forEach(box => { box.style.minHeight = "0px"; });
-
-    // Find tallest
     boxes.forEach(box => {
-      const inner = box.querySelector(".carousel-inner");
-      if (inner.scrollHeight > maxHeight) maxHeight = inner.scrollHeight;
+      const items = box.querySelectorAll(".carousel-item");
+      const originalDisplay = [];
+
+      // Temporarily show hidden items to measure
+      items.forEach((item, i) => {
+        originalDisplay[i] = item.style.display;
+        item.style.display = "block";
+      });
+
+      // Measure tallest item in this box
+      items.forEach(item => {
+        if (item.scrollHeight > maxHeight) maxHeight = item.scrollHeight;
+      });
+
+      // Restore original display
+      items.forEach((item, i) => {
+        item.style.display = originalDisplay[i] || "";
+      });
     });
 
-    // Apply tallest height to all boxes
+    // Apply max height to all boxes
     boxes.forEach(box => { box.style.minHeight = maxHeight + "px"; });
   }
 
-  // Run once at start
   equalizeBoxHeights();
 
-  // Recalculate on window resize
   let resizeTimer;
   window.addEventListener("resize", function () {
     clearTimeout(resizeTimer);
