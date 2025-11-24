@@ -4,6 +4,10 @@
   margin: 0 auto; /* center it */
 }
 
+.carousel-inner {
+  min-height: 340px;
+}
+
 .testimonial-box {
   background: #f8f5ff;
   border-radius: 12px;
