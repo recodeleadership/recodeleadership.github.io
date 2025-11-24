@@ -1,47 +1,46 @@
-/* Make testimonial box narrower */
+/* --- Carousel wrapper --- */
 .carousel-inner-wrapper {
   max-width: 750px;
-  margin: 0 auto; /* center it */
+  margin: 0 auto;
+  position: relative; /* for arrows & indicators positioning */
 }
 
-.carousel-inner {
-  min-height: 340px;
-}
-
+/* --- Testimonial box --- */
 .testimonial-box {
   background: #f8f5ff;
   border-radius: 12px;
   padding: 30px;
-  margin-bottom: 60px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08); /* floating shadow */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   position: relative;
   z-index: 2;
+  margin-bottom: 30px;
 }
 
-/* Arrows – keep them centered but OUTSIDE the text box */
+/* --- Arrows outside the box --- */
 .custom-prev,
 .custom-next {
   width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
   z-index: 3;
 }
 
-.custom-prev {
-  left: -40px;   /* move outside box */
-}
-
-.custom-next {
-  right: -40px;  /* move outside box */
-}
+.custom-prev { left: -40px; }
+.custom-next { right: -40px; }
 
 /* Purple arrow icon */
 .custom-arrow {
   filter: invert(22%) sepia(81%) saturate(3517%) hue-rotate(255deg) brightness(85%) contrast(94%);
 }
 
-/* Indicators */
+/* --- Indicators outside the box --- */
 .custom-indicators {
-  bottom: -30px;
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
 }
 
 .custom-indicators li {
@@ -51,13 +50,14 @@
   border-radius: 50%;
   margin: 0 6px;
   opacity: 0.4;
+  cursor: pointer;
 }
 
 .custom-indicators .active {
   opacity: 1 !important;
 }
 
-/* Responsive */
+/* --- Responsive --- */
 @media (max-width: 768px) {
   .custom-prev { left: -20px; }
   .custom-next { right: -20px; }
@@ -66,5 +66,5 @@
 @media (max-width: 576px) {
   .carousel-inner-wrapper { max-width: 100%; }
   .testimonial-box { padding: 20px; }
-  .custom-prev, .custom-next { display: none; } /* HIDE arrows on small screens */
+  .custom-prev, .custom-next { display: none; }
 }

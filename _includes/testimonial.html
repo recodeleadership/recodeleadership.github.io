@@ -2,10 +2,10 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" id="{{ site.data.sitetext.testimonial.section | default: "testimonial" }}">
   <div class="container">
-
     <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
 
-      <div class="carousel-inner-wrapper"> <!-- NEW WRAPPER -->
+      <div class="carousel-inner-wrapper">
+
         <div class="testimonial-box">
           <div class="carousel-inner">
 
@@ -29,14 +29,25 @@
                 <br><strong>– ChristyT, Product Manager</strong>
               </p>
             </div>
+
             <div class="carousel-item">
               <p>
                 “Amy is a great listener and a great coach. She helped me to develop skills to question myself and solve my own problems by examining challenges objectively. She also knows when to meet me as where I am by putting on her mentor hats and giving me advices when needed.”
                 <br><strong>– JennyW, Designer</strong>
               </p>
             </div>
+
           </div>
         </div>
+
+        <!-- Indicators OUTSIDE the box -->
+        <ol class="carousel-indicators custom-indicators">
+          <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+          <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+          <li data-target="#testimonialCarousel" data-slide-to="3"></li>
+        </ol>
+
       </div>
 
       <!-- Arrows OUTSIDE the box -->
@@ -48,16 +59,7 @@
         <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
       </a>
 
-      <!-- Indicators -->
-      <ol class="carousel-indicators custom-indicators">
-        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
-        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
-        <li data-target="#testimonialCarousel" data-slide-to="3"></li>
-      </ol>
-
     </div>
-
   </div>
 </section>
 {% else %}
