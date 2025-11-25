@@ -139,6 +139,12 @@ en: &DEFAULT_EN
       #     - url: https://linkedin.com
       #       icon: fab fa-linkedin-in
 
+  testimonial:
+    title: "TESTIMONIAL" #title: "OUR AMAZING TEAM"
+    text: "What Clients say"
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: testimonial
+
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"

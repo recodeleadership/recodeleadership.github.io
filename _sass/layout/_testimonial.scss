@@ -16,19 +16,16 @@
   margin-bottom: 30px;
 }
 
-/* Center the text */
-.testimonial-box p {
+/* Center all testimonial text, regardless of nesting level */
+.carousel-item p {
   text-align: center;
-  line-height: 1.6;
 }
 
-/* Add spacing + a clean break for the attribution */
-.testimonial-box p strong {
+/* Ensure name/title block has spacing */
+.carousel-item p strong {
   display: block;
-  margin-top: 18px;
-  text-align: center;
-  font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
+}
 
 /* --- Arrows outside the box --- */
 .custom-prev,
