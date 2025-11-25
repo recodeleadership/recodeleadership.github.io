@@ -42,7 +42,8 @@
 
 /* Purple arrow icon */
 .custom-arrow {
-  filter: invert(22%) sepia(81%) saturate(3517%) hue-rotate(255deg) brightness(85%) contrast(94%);
+  filter: invert(22%) sepia(81%) saturate(3517%) hue-rotate(255deg) 
+          brightness(85%) contrast(94%);
 }
 
 /* --- Indicators outside the box --- */
@@ -92,5 +93,38 @@
 
   .custom-next {
     right: -10px;  /* used to be -40px globally */
+  }
+}
+
+/* Fix arrow width so it doesn't stretch off-screen */
+.custom-prev,
+.custom-next {
+  width: 32px !important;
+  height: 32px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make arrows more proportional */
+.custom-arrow {
+  width: 20px;
+  height: 20px;
+}
+
+/* Improve desktop positioning (less extreme negative offset) */
+@media (min-width: 769px) {
+  .custom-prev { left: -25px !important; }
+  .custom-next { right: -25px !important; }
+}
+
+/* Improve mobile positioning (safe inside-screen) */
+@media (max-width: 576px) {
+  .custom-prev { left: 5px !important; }
+  .custom-next { right: 5px !important; }
+
+  .custom-arrow {
+    width: 18px;
+    height: 18px;
   }
 }
