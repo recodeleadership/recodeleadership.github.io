@@ -21,8 +21,8 @@ en: &DEFAULT_EN
     #   section: timeline
     - title: "Team"
       section: team
-    - title: "testimonial"
-      section: testimonial
+    - title: "testimonials"
+      section: testimonials
     - title: "Contact"
       section: contact
     # - title: "Theme Source"

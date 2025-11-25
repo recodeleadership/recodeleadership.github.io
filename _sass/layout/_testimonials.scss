@@ -5,8 +5,8 @@
   position: relative; /* for arrows & indicators positioning */
 }
 
-/* --- Testimonial box --- */
-.testimonial-box {
+/* --- Testimonials box --- */
+.testimonials-box {
   background: #f8f5ff;
   border-radius: 12px;
   padding: 30px;
@@ -16,7 +16,7 @@
   margin-bottom: 30px;
 }
 
-/* Center all testimonial text, regardless of nesting level */
+/* Center all testimonials text, regardless of nesting level */
 .carousel-item p {
   text-align: center;
 }
@@ -82,7 +82,7 @@
     max-width: 90%;
   }
 
-  .testimonial-box {
+  .testimonials-box {
     padding: 20px;
     margin: 0 auto 30px auto; /* keep centered */
   }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   function equalizeCarouselHeights() {
-    const carousels = document.querySelectorAll("#testimonialCarousel .carousel-inner");
+    const carousels = document.querySelectorAll("#testimonialsCarousel .carousel-inner");
     carousels.forEach(inner => {
       const items = inner.querySelectorAll(".carousel-item");
       let maxHeight = 0;

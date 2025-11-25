@@ -139,11 +139,26 @@ en: &DEFAULT_EN
       #     - url: https://linkedin.com
       #       icon: fab fa-linkedin-in
 
-  testimonial:
+  testimonials:
     title: "TESTIMONIAL" #title: "OUR AMAZING TEAM"
     text: "What Clients say"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: testimonial
+    section: testimonials
+    reviews:
+      - text: "Amy is an exceptional leadership coach who fills a critical gap; supporting quiet leaders who don't fit the profile of a traditional \"charismatic extrovert.\" Amy focuses on this underserved area, understanding that some lead through listening, reflection, and considered action rather than commanding the room. Despite years in leadership roles, I was surprised by both a strength and a weakness Amy helped me identify. She was an insightful sounding board, helping me clarify a situation I had been avoiding. She worked with my natural style, giving me space to think and explore while identifying patterns and practical actions. If you are a quiet leader who has not felt that traditional leadership advice fits, I highly recommend Amy."
+        author: "Government Technology Executive"
+      - text: "Amy is a leadership coach with a unique ability to deeply listen. She is excellent in providing a reflective calming space for me to both process my thoughts and recognize what is most essential. Amy is also one of the most kind hearted people I know, and I am appreciative of our coaching sessions as each one provides a place for me to optimally integrate my learnings and to show up as both a highly self-aware human being and a well grounded leader."
+        author: "King L., Executive Leadership & Global Scaling Coach"
+      - text: "Amy’s use of powerful questioning challenges me to think deeply and uncover insights I hadn’t considered, which helps me with my goals and motivations. Her ability to reframe perspectives enables me to see challenges in a more positive light, turning obstacles into opportunities for growth. The focus on mindset shifts has been transformative, as it helps me to use growth-oriented approach, and taking setbacks as learning experiences rather than failures."
+        author: "Liz M., Data Scientist"
+      - text: "Amy has been helpful in unfolding the challenges I face at work based on my developmental goals. She is resourceful, encouraging and able to provide constructive feedback to work on my strengths and weaknesses areas."
+        author: "Christy T., Product Manager"
+      - text: "Amy is a great listener and a great coach. She helped me to develop skills to question myself and solve my own problems by examining challenges objectively. She also knows when to meet me as where I am by putting on her mentor hats and giving me advices when needed."
+        author: "Jenny W., Designer"
+      - text: "Amy is a wonderful coach! She was very patient and helped me gain the confidence that I needed to move forward in the next steps of my career. I would definitely recommend her if you are looking for a coach who listens to what you have to say and asks the right questions to help guide the conversation. Thank you Amy!"
+        author: "Julie D., Marketing Coordinator"
+      - text: "I enjoyed meeting with Amy for a 1:1 chat. She helped me clarify actionable steps to progress in my career search, which boosted my confidence and direction. She also shared some fantastic resources that will be invaluable for me on my journey. Her guidance was a great addition in my professional development, and I highly recommend her services to anyone seeking career advancement."
+        author: "Brenisha GT., UX Designer"
 
   contact:
     title: "Contact Us"

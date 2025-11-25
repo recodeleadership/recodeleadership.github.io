@@ -1,0 +1,90 @@
+<!-- Team -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
+  <div class="container">
+    <div class="row">
+	    <div class="col-lg-12 text-center">
+	      <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].testimonials.title }}</h2>
+	      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].testimonials.text }}</h3>
+  	  </div>
+    </div>
+    <div class="row">
+      <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel"  data-interval="5000">
+
+        <div class="carousel-inner-wrapper">
+
+          <div class="testimonials-box">
+            <div class="carousel-inner">
+            {% for review in site.data.sitetext[site.locale].testimonials.reviews %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <p>
+                  “{{ review.text }}”
+                  <br><strong>– {{ review.author }}"</strong><br>
+                </p>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+
+          <!-- Indicators OUTSIDE the box -->
+		  <ol class="carousel-indicators custom-indicators">
+  		  {% for review in site.data.sitetext[site.locale].testimonials.reviews %}
+    		<li data-target="#testimonialsCarousel" data-slide-to="{{ forloop.index0 }}" 
+      		  class="{% if forloop.first %}active{% endif %}">
+    		</li>
+  		  {% endfor %}
+		  </ol>
+
+        </div>
+
+        <!-- Arrows OUTSIDE the box -->
+        <a class="carousel-control-prev custom-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next custom-next" href="#testimonialsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+	<div class="container">
+	  <div class="row">
+		<div class="col-lg-12 text-center">
+		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+		</div>
+	  </div>
+	  <div class="row d-flex justify-content-center">
+	  {% for person in site.data.sitetext.team.people %}
+		<div class="col-sm-4">
+		  <div class="team-member">
+			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+			<h4>{{ person.name }}</h4>
+			<p class="text-muted">{{ person.role }}</p>
+			<ul class="list-inline social-buttons">
+			{% for network in person.social %}
+			  <li class="list-inline-item">
+				<a href="{{ network.url }}">
+				  <i class="{{ network.icon }}"></i>
+				</a>
+			  </li>
+			{% endfor %}
+			</ul>
+		  </div>
+		</div>
+	  {% endfor %}
+	  </div>
+	  <div class="row">
+		<div class="col-lg-8 mx-auto text-center">
+		  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
+		</div>
+	  </div>
+	</div>
+</section>
+{% endif %}
+<!-- End Team -->
