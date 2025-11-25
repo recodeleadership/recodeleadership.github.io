@@ -27,12 +27,41 @@ header.masthead {
     }
   }
 }
+// @media (min-width: 768px) {
+//   header.masthead {
+//     margin-top: 78px; // desktop navbar height
+//     .intro-text {
+//       padding-top: 300px;
+//       padding-bottom: 200px;
+//       .intro-lead-in {
+//         font-size: 40px;
+//         font-style: italic;
+//         line-height: 40px;
+//         margin-bottom: 25px;
+//         @include serif-font;
+//       }
+//       .intro-heading {
+//         font-size: 75px;
+//         font-weight: 700;
+//         line-height: 75px;
+//         margin-bottom: 50px;
+//         @include heading-font;
+//       }
+//     }
+//   }
+// }
 @media (min-width: 768px) {
   header.masthead {
-    margin-top: 78px; // desktop navbar height
+    display: flex;
+    align-items: center;            // vertical centering; change to flex-start to nudge up
+    justify-content: center;        // horizontal centering
+    min-height: calc(100vh - 78px); // full viewport minus navbar height
+    padding: 0;                     // remove large fixed paddings used on mobile
+
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding: 0 15px; // small horizontal padding for breathing room
+
+      // Desktop lead-in sizing
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -40,12 +69,31 @@ header.masthead {
         margin-bottom: 25px;
         @include serif-font;
       }
+
       .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
         @include heading-font;
+      }
+
+      // If you want the content a bit higher than center, change align-items above:
+      // align-items: flex-start; and add a top padding here, e.g. padding-top: 120px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead {
+    .intro-text {
+      .intro-lead-in {
+        // slightly larger or keep same if you prefer consistency
+        // font-size: 44px;
+      }
+      .intro-heading {
+        // maybe slightly larger for ultra-wide screens
+        // font-size: 84px;
       }
     }
   }
