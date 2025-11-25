@@ -52,6 +52,7 @@ header.masthead {
 // }
 @media (min-width: 768px) {
   header.masthead {
+    margin-top: 78px;
     display: flex;
     align-items: center;            // vertical centering; change to flex-start to nudge up
     justify-content: center;        // horizontal centering
@@ -84,17 +85,3 @@ header.masthead {
   }
 }
 
-@media (min-width: 1200px) {
-  header.masthead {
-    .intro-text {
-      .intro-lead-in {
-        // slightly larger or keep same if you prefer consistency
-        // font-size: 44px;
-      }
-      .intro-heading {
-        // maybe slightly larger for ultra-wide screens
-        // font-size: 84px;
-      }
-    }
-  }
-}
