@@ -24,7 +24,8 @@
 /* Ensure name/title block has spacing */
 .carousel-item p strong {
   display: block;
-  padding-bottom: 12px;
+  margin: 12px 0; /* 12px top and bottom */
+  padding-bottom: 0; /* remove old padding if any */
 }
 
 /* --- Arrows outside the box --- */
