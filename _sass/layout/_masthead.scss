@@ -1,5 +1,6 @@
 // Styling for the masthead
 header.masthead {
+  margin-top: 56px; // mobile navbar height
   text-align: center;
   color: darkcyan;//#4910bc;//yellow;//white;
   background-image: url("#{$header-image}");
@@ -8,7 +9,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    // padding-top: 150px;
+    padding-top: 150px;
     padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
@@ -28,6 +29,7 @@ header.masthead {
 }
 @media (min-width: 768px) {
   header.masthead {
+    margin-top: 85px; // desktop navbar height
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
