@@ -9,44 +9,46 @@
   	  </div>
     </div>
     <div class="row">
-      <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel"  data-interval="5000">
+	  <div class="col-12 d-flex justify-content-center">
+		<div id="testimonialsCarousel" class="carousel slide" data-ride="carousel"  data-interval="5000">
 
-        <div class="carousel-inner-wrapper">
+			<div class="carousel-inner-wrapper">
 
-          <div class="testimonials-box">
-            <div class="carousel-inner">
-            {% for review in site.data.sitetext[site.locale].testimonials.reviews %}
-              <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <p>
-                  “{{ review.text }}”
-                  <br><strong>– {{ review.author }}</strong><br>
-                </p>
-              </div>
-            {% endfor %}
-            </div>
-          </div>
+			<div class="testimonials-box">
+				<div class="carousel-inner">
+				{% for review in site.data.sitetext[site.locale].testimonials.reviews %}
+				<div class="carousel-item {% if forloop.first %}active{% endif %}">
+					<p>
+					“{{ review.text }}”
+					<br><strong>– {{ review.author }}</strong><br>
+					</p>
+				</div>
+				{% endfor %}
+				</div>
+			</div>
 
-          <!-- Indicators OUTSIDE the box -->
-		  <ol class="carousel-indicators custom-indicators">
-  		  {% for review in site.data.sitetext[site.locale].testimonials.reviews %}
-    		<li data-target="#testimonialsCarousel" data-slide-to="{{ forloop.index0 }}" 
-      		  class="{% if forloop.first %}active{% endif %}">
-    		</li>
-  		  {% endfor %}
-		  </ol>
+			<!-- Indicators OUTSIDE the box -->
+			<ol class="carousel-indicators custom-indicators">
+			{% for review in site.data.sitetext[site.locale].testimonials.reviews %}
+				<li data-target="#testimonialsCarousel" data-slide-to="{{ forloop.index0 }}" 
+				class="{% if forloop.first %}active{% endif %}">
+				</li>
+			{% endfor %}
+			</ol>
 
-        </div>
+			</div>
 
-        <!-- Arrows OUTSIDE the box -->
-        <a class="carousel-control-prev custom-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
-        </a>
+			<!-- Arrows OUTSIDE the box -->
+			<a class="carousel-control-prev custom-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
+			</a>
 
-        <a class="carousel-control-next custom-next" href="#testimonialsCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
-        </a>
+			<a class="carousel-control-next custom-next" href="#testimonialsCarousel" role="button" data-slide="next">
+			<span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
+			</a>
 
-      </div>
+		</div>
+	  /div>
     </div>
   </div>
 </section>
