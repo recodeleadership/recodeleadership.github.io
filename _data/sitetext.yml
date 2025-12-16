@@ -32,7 +32,7 @@ en: &DEFAULT_EN
       - title: "[RISE Together (3 Months) ➜](/services/rise-together)"
         desc: "A group experience grounded in the RISE Framework, designed to help quiet leaders rise with clarity and confidence — together."
         #icon: fab fa-markdown
-      - title: "[The Quiet Leaders' Lab ➜](/services/quiet-leaders-lab)"
+      - title: "[The Quiet Leaders Lab ➜](/services/quiet-leaders-lab)"
         desc: "A safe community space for quiet leaders to learn, experiment, and grow alongside peers."
       - title: "[Speaking & Workshops ➜](/services/speaking-workshop)"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
