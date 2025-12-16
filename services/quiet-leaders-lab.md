@@ -1,5 +1,5 @@
 ---
-layout: ../page
+layout: page
 title: Quiet Leaders Lab
 background: grey
 permalink: /services/quiet-leaders-lab/
