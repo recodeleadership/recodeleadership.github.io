@@ -13,11 +13,11 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-      subnav:
-      - title: "Amplifying Your Strengths (50-minute 1:1)"
-        url: "https://www.recodeleadership.com/services/amplifying-your-strengths"
-      - title: "RISE 1:1 (3 or 6 Months)"
-        url: "https://www.recodeleadership.com/services/rise"
+      # subnav:
+      # - title: "Amplifying Your Strengths (50-minute 1:1)"
+      #   url: "https://www.recodeleadership.com/services/amplifying-your-strengths"
+      # - title: "RISE 1:1 (3 or 6 Months)"
+      #   url: "https://www.recodeleadership.com/services/rise"
     # - title: "Portfolio"
     #   section: portfolio
     - title: "About"

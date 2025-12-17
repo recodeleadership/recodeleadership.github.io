@@ -44,6 +44,7 @@ en: &DEFAULT_EN
       - title: "Need something else? ➜"
         url: "#contact"
         desc: Let's connect and explore what support would help you and your team move forward.
+        anchor: true
   # portfolio:
   #   title: "Portfolio"
   #   text: "Lorem ipsum dolor sit amet consectetur."
