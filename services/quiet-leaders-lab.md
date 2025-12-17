@@ -2,7 +2,6 @@
 layout: page
 title: Quiet Leaders Lab
 background: grey
-permalink: /services/quiet-leaders-lab/
 ---
 
 <div class="col-lg-12 text-center">
