@@ -160,14 +160,14 @@ en: &DEFAULT_EN
       - title: "Associate Certified Coach"
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "Associate Certified Coach"
-        url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
-        logo: assets/img/credentials/associate-certified-coach-acc.png
+  # clients:
+  #   section: clients
+  #   max-height: 100px
+  #   horizontal-scrolling: "" #"yes/no"
+  #   list:
+  #     - title: "Associate Certified Coach"
+  #       url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
+  #       logo: assets/img/credentials/associate-certified-coach-acc.png
       # - title: "envato"
       #   url: https://github.com/raviriley/agency-jekyll-theme
       #   logo: assets/img/clients/envato.jpg
