@@ -152,7 +152,7 @@ en: &DEFAULT_EN
       #   url: https://github.com/raviriley/agency-jekyll-theme
       #   logo: assets/img/clients/creative-market.jpg
 
-  team:
+  meet-amy:
     title: "Meet Amy"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: |
