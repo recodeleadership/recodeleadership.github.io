@@ -85,7 +85,29 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Why this work exists"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: |
+      Recode Leadership was created to support leaders who don’t fit the traditional mold — and who want to explore what it means to lead in a way that is truly their own.
+
+      Many of us have been criticized for how we show up:
+
+      - We are quieter.
+      - We are more thoughtful.
+      - We lead with care.
+      - We take time to make considered decisions.
+
+      And yet, we are also high-achieving leaders.
+
+      - We are capable and trusted.
+      - We lead with integrity and heart.
+      - We balance business needs with care for people.
+      - We deliver meaningful, lasting results.
+
+      We are more than the traits others have misunderstood or undervalued.
+
+      At Recode Leadership, we believe leadership can take many shapes — and that strong leadership honors both people and outcomes. Leaders deserve to be recognized not for how closely they match a mold, but for the impact they create by being themselves.
+
+      This work exists to support you in becoming a leader who is respected, valued, and recognized for who you truly are.
+
     section: about
 
   approach:
