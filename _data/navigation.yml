@@ -22,6 +22,8 @@ en: &DEFAULT_EN
     #   section: portfolio
     - title: "About"
       section: about
+    - title: "Approach"
+      section: approach
     # - title: "Timeline"
     #   section: timeline
     - title: "Team"

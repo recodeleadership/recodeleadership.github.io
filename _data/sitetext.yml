@@ -88,6 +88,18 @@ en: &DEFAULT_EN
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
+  approach:
+    title: "Our Approach"
+    text: "our story"
+    body: |
+      You already have the strengths that brought you here — the thoughtfulness, dedication, and quiet excellence that make you a trusted leader.
+      
+      But we’re often conditioned to focus on what we lack, instead of what makes us effective.
+
+      Our work together shifts that focus. We’ll uncover and amplify the strengths and qualities that already make you exceptional — and use them to help you rise confidently toward the career and leadership you want.
+
+      Through the RISE Framework, a 4-part process, you’ll learn to grow with clarity, confidence, and authenticity."
+
   clients:
     section: clients
     max-height: 100px
