@@ -138,7 +138,7 @@ en: &DEFAULT_EN
     body: |
       You’ve always led with thoughtfulness, care, and integrity. But somewhere along the way, you started to wonder — “Do people even see the value I bring?”
 
-      At Recode Leadership LLC, I help and guide quiet leaders at every stage of their journey rise into recognition — by amplifying their strengths and qualities so they’re noticed and valued for who they truly are, beyond their quietness.
+      At Recode Leadership, we help and guide quiet leaders at every stage of their journey rise into recognition — by amplifying their strengths and qualities so they’re noticed and valued for who they truly are, beyond their quietness.
 
       *If this sounds familiar, you’re in the right place.*
 
@@ -151,7 +151,7 @@ en: &DEFAULT_EN
       
       You don’t need to become someone else to be seen. You just need to learn how to amplify the strengths you already have.
 
-      That’s what I help you do.
+      That’s what we help you do.
   credentials:
     section: clients
     max-height: 100px
@@ -185,6 +185,8 @@ en: &DEFAULT_EN
     title: "Meet Amy"
     text: "Why I do this work"
     subtext: |
+      Hi, I'm Amy. I am the founder and leadership & executive coach at Recode Leadership.
+
       I help quiet, high-achieving leaders to lead with confidence so they can be recognized and valued for who they truly are.
 
       I wasn’t born a leader. I rarely raised my hand to lead a team or share my opinion. I quietly observed others who were eager to speak up and take charge, thinking they had it all figured out — while I silently delivered results behind the scenes.
@@ -201,7 +203,8 @@ en: &DEFAULT_EN
       
       Throughout my career, I’ve also volunteered my time and expertise to causes supporting underserved communities — work that continues to be deeply meaningful to me.
 
-      If you’re ready to lean into your quiet nature and lead from your strengths, you’re in the right place. I’m here to help you do just that.    section: meet-amy
+      If you’re ready to lean into your quiet nature and lead from your strengths, you’re in the right place. I’m here to help you do just that.
+    section: meet-amy
     people:
       - name: "Amy Mok"
         role: "Founder and Leadership & Executive Coach"
