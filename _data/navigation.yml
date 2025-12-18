@@ -16,18 +16,20 @@ en: &DEFAULT_EN
     - title: "Approach"
       section: approach
     - title: "Services"
-      section: services
-    - title: "About"
-      section: about
-    # - title: "Timeline"
-    #   section: timeline
-    - title: "Team"
-      section: team
+      section: services    
       # subnav:
       # - title: "Amplifying Your Strengths (50-minute 1:1)"
       #   url: "https://www.recodeleadership.com/services/amplifying-your-strengths"
       # - title: "RISE 1:1 (3 or 6 Months)"
       #   url: "https://www.recodeleadership.com/services/rise"
+    - title: "About"
+      section: about
+    # - title: "Timeline"
+    #   section: timeline
+    # - title: "Team"
+    #   section: team
+    - title: "Meet Amy"
+      section: meet-amy
     # - title: "Portfolio"
     #   section: portfolio
     - title: "testimonials"

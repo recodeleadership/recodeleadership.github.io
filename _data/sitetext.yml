@@ -20,7 +20,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    # text: "Lorem ipsum"
+    text: "how we can work together"
     section: services
     list:
       - title: "Amplifying Your Strengths (50-minute 1:1) ➜"
@@ -98,7 +98,17 @@ en: &DEFAULT_EN
 
       Our work together shifts that focus. We’ll uncover and amplify the strengths and qualities that already make you exceptional — and use them to help you rise confidently toward the career and leadership you want.
 
-      Through the RISE Framework, a 4-part process, you’ll learn to grow with clarity, confidence, and authenticity."
+      Through the RISE Framework, a 4-part process, you’ll learn to grow with clarity, confidence, and authenticity.
+
+      The RISE Framework
+
+      1. **Recognize what’s not working""" — We’ll start by understanding what’s keeping you unseen or stuck. You’ll gain clarity on your current challenges and the invisible patterns that may be holding you back.
+
+      2. **Illuminate your strengths** — Together, we’ll uncover what makes you naturally effective. You’ll learn to use your authentic ways of thinking, relating, and leading as tools for visibility and influence.
+
+      3. **Strengthen your impact** — You’ll practice using your voice, presence, and strategies to lead with calm authority — in a way that earns recognition while staying true to who you are.
+
+      4. **Elevate your leadership** — We’ll recode your definition of success, so you can grow your career in a way that’s sustainable, fulfilling, and aligned with your values.
 
   overview:
     title: ""
@@ -141,6 +151,32 @@ en: &DEFAULT_EN
       # - title: "Creative Market"
       #   url: https://github.com/raviriley/agency-jekyll-theme
       #   logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Meet Amy"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: |
+      Hi, I’m Amy Mok — a coach for quiet, high-achieving leaders who want to be recognized and valued for their impact.
+
+      For years, I worked hard, delivered results, and supported others quietly — yet often felt unseen.
+
+      It wasn’t until I began my own coaching journey that I realized: I didn’t need to change myself to be valued. I needed to understand my strengths, trust my voice, and lead in a way that felt like me.
+
+      That’s what I help my clients do.
+
+      I’m an ICF Associate Certified Coach with over 20 years in tech leadership — from startups to the federal government. My coaching combines deep empathy, reflection, and strategy to help you find confidence that lasts.
+    section: meet-amy
+    people:
+      - name: "Amy Mok"
+        role: "Founder and Leadership & Executive Coach"
+        image: assets/img/team/amymok.jpg
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://linkedin.com/in/amymok
+            icon: fab fa-linkedin-in
 
   team:
     title: "ABOUT AMY" #title: "OUR AMAZING TEAM"
