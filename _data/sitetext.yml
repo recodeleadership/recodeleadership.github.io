@@ -16,11 +16,11 @@ en: &DEFAULT_EN
       so they can be recognized and valued for who they truly are.
     # text: It's Nice To Meet You
     button: Learn More
-    buttonlink: "#services"
+    buttonlink: "#overview"
 
   services:
     title: "Services"
-    text: "how we can work together"
+    text: "How we can work together"
     section: services
     list:
       - title: "Amplifying Your Strengths (50-minute 1:1) ➜"
@@ -84,13 +84,13 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
+    text: "Why this work exists"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
   approach:
     title: "Our Approach"
-    text: "our story"
+    text: "The philosophy behind this work"
     body: |
       You already have the strengths that brought you here — the thoughtfulness, dedication, and quiet excellence that make you a trusted leader.
       
@@ -102,7 +102,7 @@ en: &DEFAULT_EN
 
       The RISE Framework
 
-      1. **Recognize what’s not working""" — We’ll start by understanding what’s keeping you unseen or stuck. You’ll gain clarity on your current challenges and the invisible patterns that may be holding you back.
+      1. **Recognize what’s not working** — We’ll start by understanding what’s keeping you unseen or stuck. You’ll gain clarity on your current challenges and the invisible patterns that may be holding you back.
 
       2. **Illuminate your strengths** — Together, we’ll uncover what makes you naturally effective. You’ll learn to use your authentic ways of thinking, relating, and leading as tools for visibility and influence.
 
@@ -154,7 +154,7 @@ en: &DEFAULT_EN
 
   meet-amy:
     title: "Meet Amy"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Why I do this work"
     subtext: |
       Hi, I’m Amy Mok — a coach for quiet, high-achieving leaders who want to be recognized and valued for their impact.
 
@@ -238,7 +238,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Let's explore working together"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
