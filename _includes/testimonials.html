@@ -3,7 +3,7 @@
 <section class="bg-light page-section" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
   <div class="container">
     <div class="row">
-	    <div class="col-lg-12 text-center">
+	    <div class="col-lg-12"><!--text-center-->
 	      <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].testimonials.title }}</h2>
 	      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].testimonials.text }}</h3>
   	  </div>
@@ -56,7 +56,7 @@
 <section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
 	<div class="container">
 	  <div class="row">
-		<div class="col-lg-12 text-center">
+		<div class="col-lg-12"><!--text-center-->
 		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
 		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
 		</div>
@@ -82,7 +82,7 @@
 	  {% endfor %}
 	  </div>
 	  <div class="row">
-		<div class="col-lg-8 mx-auto text-center">
+		<div class="col-lg-8 mx-auto"><!--text-center-->
 		  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
 		</div>
 	  </div>
