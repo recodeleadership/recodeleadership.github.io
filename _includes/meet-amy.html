@@ -3,14 +3,14 @@
 <section class="page-section" id="{{ site.data.sitetext[site.locale].meet-amy.section | default: "meet-amy" }}">
 <div class="container">
   <div class="row">
-	<div class="col-lg-8 mx-auto"><!--text-center-->
+	<div class="col-lg-8 text-center mx-auto"><!---->
 	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].meet-amy.title }}</h2>
 	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].meet-amy.text }}</h3>
 	</div>
   </div>
-  <div class="row d-flex justify-content-center">
+  <div class="row d-flex justify-content-center mx-auto">
   {% for person in site.data.sitetext[site.locale].meet-amy.people %}
-	<div class="col-sm-4">
+	<div class="col-sm-4 mx-auto">
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 		<h4>{{ person.name }}</h4>
@@ -29,7 +29,7 @@
   {% endfor %}
   </div>
   <div class="row">
-	<div class="col-lg-8 mx-auto"><!--text-center-->
+	<div class="col-lg-8 text-center mx-auto"><!--text-center-->
 	  <div class="large text-muted">{{ site.data.sitetext[site.locale].meet-amy.subtext | markdownify }}</div>
 	</div>
   </div>
@@ -39,14 +39,14 @@
 <section class="page-section" id="{{ site.data.sitetext.meet-amy.section | default: "meet-amy" }}">
 	<div class="container">
 	  <div class="row">
-		<div class="col-lg-8 mx-auto"><!--text-center-->
+		<div class="col-lg-8 text-center mx-auto"><!--text-center-->
 		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.meet-amy.title }}</h2>
 		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.meet-amy.text }}</h3>
 		</div>
 	  </div>
-	  <div class="row d-flex justify-content-center">
+	  <div class="row d-flex justify-content-center mx-auto">
 	  {% for person in site.data.sitetext.meet-amy.people %}
-		<div class="col-sm-4">
+		<div class="col-sm-4 mx-auto">
 		  <div class="team-member">
 			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 			<h4>{{ person.name }}</h4>
@@ -65,7 +65,7 @@
 	  {% endfor %}
 	  </div>
 	  <div class="row">
-		<div class="col-lg-8 mx-auto"><!--text-center-->
+		<div class="col-lg-8 text-center mx-auto"><!--text-center-->
 		  <div class="large text-muted">{{ site.data.sitetext.meet-amy.subtext | markdownify }}</div>
 		</div>
 	  </div>
