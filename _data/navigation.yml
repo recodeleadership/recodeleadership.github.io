@@ -32,7 +32,7 @@ en: &DEFAULT_EN
       section: meet-amy
     # - title: "Portfolio"
     #   section: portfolio
-    - title: "testimonials"
+    - title: "Testimonials"
       section: testimonials
     - title: "Contact"
       section: contact

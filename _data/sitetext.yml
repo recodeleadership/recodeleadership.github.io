@@ -253,7 +253,7 @@ en: &DEFAULT_EN
       #       icon: fab fa-linkedin-in
 
   testimonials:
-    title: "TESTIMONIALS"
+    title: "Testimonials"
     text: "What Clients say"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: testimonials
