@@ -26,10 +26,16 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="{{ site.baseurl }}/legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
+            <a href="{{ site.baseurl }}/privacy-policy"
+              >{{ site.data.sitetext.footer.privacy-policy | default:
               "Privacy Policy" }}</a
-            >
+            > 
+          </li>
+          <li class="list-inline-item">
+            <a href="{{ site.baseurl }}/terms-and-conditions"
+              >{{ site.data.sitetext.footer.terms-and-conditions | default:
+              "Terms and Conditions" }}</a
+            > 
           </li>
         </ul>
       </div>
