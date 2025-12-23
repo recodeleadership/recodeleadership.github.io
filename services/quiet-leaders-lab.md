@@ -5,7 +5,7 @@ background: grey
 ---
 
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Quiet Leaders Lab</h2>
+	<h2 class="section-heading">Quiet Leaders Lab</h2>
 </div>
 
 A monthly space for quiet leaders to lead more at ease and more true to themselves.
@@ -26,4 +26,4 @@ It’s a shared space to notice, reflect, and experiment gently — alongside ot
 
 **Come as you are. Leave with something small and true to try.**
 
-**Participation is free.** If you’d like to contribute, a suggested optional donation of $10 helps support the Lab and keeps it sustainable.
+**Participation is free.** If you’d like to contribute, a suggested optional ticket price of $10 helps support the Lab and keeps it sustainable.

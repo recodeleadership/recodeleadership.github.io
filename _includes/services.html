@@ -5,7 +5,7 @@
 	
       <div class="row">
         <div class="col-lg-8 text-center mx-auto"><!---->
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
+          <h2 class="section-heading">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
           {% if site.data.sitetext[site.locale].services.text %}
 		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
 		  {% endif %}
@@ -34,7 +34,7 @@
 
     <div class="row">
       <div class="col-lg-8 text-center mx-auto"><!--text-center-->
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
+        <h2 class="section-heading">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
         {% if site.data.sitetext.services.text %}
     <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
     {% endif %}
