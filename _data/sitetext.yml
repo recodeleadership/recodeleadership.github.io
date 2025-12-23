@@ -290,6 +290,8 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
+    privacy-policy: "Privacy Policy"
+    terms-and-conditions: "Terms and Conditions"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"

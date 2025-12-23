@@ -6,6 +6,7 @@ background: grey
 
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading">Quiet Leaders Lab</h2>
+	<br>
 </div>
 
 A monthly space for quiet leaders to lead more at ease and more true to themselves.
