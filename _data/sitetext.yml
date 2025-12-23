@@ -50,7 +50,11 @@ en: &DEFAULT_EN
   #   text: "Lorem ipsum dolor sit amet consectetur."
   #   section: portfolio
   #   closebutton: "Close Project"
-
+  resources:
+    title: "Resources"
+    text: "Practical tools and reflections for you"
+    section: resources
+    closebutton: "Close"
   # timeline:
   #   title: "Timeline"
   #   text: "Lorem ipsum timeline"

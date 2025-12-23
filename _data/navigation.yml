@@ -34,6 +34,8 @@ en: &DEFAULT_EN
     #   section: portfolio
     - title: "Testimonials"
       section: testimonials
+    - title: "Resources"
+      section: resources
     - title: "Contact"
       section: contact
     # - title: "Theme Source"
