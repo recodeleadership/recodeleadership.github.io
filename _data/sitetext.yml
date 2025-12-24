@@ -35,9 +35,9 @@ en: &DEFAULT_EN
         url: "services/rise-together"
         desc: "A group experience grounded in the RISE Framework, designed to help quiet leaders rise with clarity and confidence — together."
         #icon: fab fa-markdown
-      - title: "The Quiet Leaders Lab ➜"
-        url: "services/quiet-leaders-lab"
-        desc: "A safe community space for quiet leaders to learn, experiment, and grow alongside peers."
+      # - title: "The Quiet Leaders Lab ➜"
+      #   url: "services/quiet-leaders-lab"
+      #   desc: "A safe community space for quiet leaders to learn, experiment, and grow alongside peers."
       - title: "Speaking & Workshops ➜"
         url: "services/speaking-workshop"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
