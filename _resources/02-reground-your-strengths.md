@@ -1,12 +1,12 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Reground Your Strengths Framework
+subtitle: A framework to help you cope with burnout and reconnect with your purpose
 image: assets/img/portfolio/04-thumbnail.jpg #700x460
 alt: Shirts on a hanger
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: Reground Your Strengths Framework
+  subtitle: A framework to help you cope with burnout and reconnect with your purpose
   thumbnail: assets/img/portfolio/04-thumbnail.jpg #400x300
 ---
 
