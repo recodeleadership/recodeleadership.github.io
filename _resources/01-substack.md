@@ -15,5 +15,5 @@ Being Amok is a collection of reflections and essays exploring what it means to 
 
 If you’re someone who thinks deeply, feels deeply, and wants language for what’s happening beneath the surface, this writing is for you.
 
-## [📖 Read the writing](https://amymok.substack.com)
+### [📖 Read the writing](https://amymok.substack.com)
 
