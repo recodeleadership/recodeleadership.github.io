@@ -10,18 +10,20 @@
     </div>
     <div class="row justify-content-center">
 	{% for project in site.resources %}
-      <div class="col-md-6 col-sm-12 resources-item">
-        <a class="resources-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="resources-hover">
-            <div class="resources-hover-content">
-              <i class="{{ site.data.style.resources-icon | default: "fas fa-plus fa-3x" }}"></i>
+      <div class="col-md-6 col-sm-12 d-flex">
+        <div class="resources-item">
+            <a class="resources-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="resources-hover">
+                <div class="resources-hover-content">
+                <i class="{{ site.data.style.resources-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
             </div>
-          </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="resources-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+            </a>
+            <div class="resources-caption">
+            <h4>{{ project.caption.title }}</h4>
+            <p class="text-muted">{{ project.caption.subtitle }}</p>
+            </div>
         </div>
       </div>
 	{% endfor %}
@@ -39,18 +41,20 @@
     </div>
     <div class="row justify-content-center">
 	{% for project in site.resources %}
-      <div class="col-md-4 col-sm-6 resources-item">
-        <a class="resources-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="resources-hover">
-            <div class="resources-hover-content">
-              <i class="{{ site.data.style.resources-icon | default: "fas fa-plus fa-3x" }}"></i>
+      <div class="col-md-6 col-sm-12 d-flex">
+        <div class="resources-item">
+            <a class="resources-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="resources-hover">
+                <div class="resources-hover-content">
+                <i class="{{ site.data.style.resources-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
             </div>
-          </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="resources-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+            </a>
+            <div class="resources-caption">
+            <h4>{{ project.caption.title }}</h4>
+            <p class="text-muted">{{ project.caption.subtitle }}</p>
+            </div>
         </div>
       </div>
 	{% endfor %}
