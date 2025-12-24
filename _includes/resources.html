@@ -39,10 +39,10 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.resources.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row justify-content-center g-4">
+    <div class="row justify-content-center">
 	{% for project in site.resources %}
-      <div class="col-md-6 col-sm-12 d-flex">
-        <div class="resources-item">
+      <div class="col-md-6 col-sm-12 d-flex mb-4">
+        <div class="resources-item w-100">
             <a class="resources-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="resources-hover">
                 <div class="resources-hover-content">
