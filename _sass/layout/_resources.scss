@@ -21,7 +21,7 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out(chocolate, 0.1);//fade-out($primary, 0.1);#1cabb0
+        background: fade-out(#b7a0e7, 0.1);//chocolate fade-out($primary, 0.1);#1cabb0
         &:hover {
           opacity: 1;
         }
@@ -33,7 +33,7 @@
           height: 20px;
           margin-top: -12px;
           text-align: center;
-          color: magenta;//white;
+          color: #1cabb0;//magenta;//white;
           i {
             margin-top: -12px;
           }
