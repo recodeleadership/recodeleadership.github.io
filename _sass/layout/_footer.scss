@@ -29,14 +29,14 @@ ul.social-buttons {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
-      color: pink;//white;
+      color: #4910bc;//pink;//white;
       border-radius: 100%;
       outline: none;
-      background-color: peachpuff;//$gray-900;
+      background-color: #ebdcf9;//peachpuff;//$gray-900;
       &:active,
       &:focus,
       &:hover {
-        background-color: olive;//#1cabb0;//$primary;
+        background-color: #b7a0e7;//olive;//#1cabb0;//$primary;
       }
     }
   }
