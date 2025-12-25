@@ -1,13 +1,13 @@
 ---
-title: Reground Your Strengths
+title: Reground with Strengths
 subtitle: A framework to help you reconnect with what grounds you
-image: assets/img/resources/reground-your-strengths-400x300.png #700x460
+image: assets/img/resources/reground-with-strengths-400x300.png #700x460
 alt: Shirts on a hanger
 
 caption:
-  title: Reground Your Strengths
+  title: Reground with Strengths
   subtitle: A framework to help you reconnect with what grounds you
-  thumbnail: assets/img/resources/reground-your-strengths-400x300.png #400x300
+  thumbnail: assets/img/resources/reground-with-strengths-400x300.png #400x300
 ---
 
 When leadership feels unsteady — especially during periods of uncertainty, change, or low morale — this framework offers a way to pause, reflect, and reconnect with your strengths. It was created to support leaders who continue showing up and serving, even when the environment around them feels unstable.
