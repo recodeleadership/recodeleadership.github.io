@@ -1,6 +1,6 @@
 <!-- Overview -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].overview.section | default: "overview" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext[site.locale].overview.section | default: "overview" }}">
   <div class="container">
     <!-- <div class="row">
       <div class="col-lg-12 text-center">
@@ -16,7 +16,7 @@
   </div>
 </section>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.overview.section | default: "overview" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext.overview.section | default: "overview" }}">
   <div class="container">
     <!-- <div class="row">
       <div class="col-lg-12 text-center">

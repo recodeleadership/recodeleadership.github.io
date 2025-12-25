@@ -1,6 +1,6 @@
 <!-- Meet-Amy -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].meet-amy.section | default: "meet-amy" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext[site.locale].meet-amy.section | default: "meet-amy" }}">
 <div class="container">
   <div class="row">
 	<div class="col-lg-8 text-center mx-auto"><!---->
@@ -36,7 +36,7 @@
 </div>
 </section>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.meet-amy.section | default: "meet-amy" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext.meet-amy.section | default: "meet-amy" }}">
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-8 text-center mx-auto"><!--text-center-->

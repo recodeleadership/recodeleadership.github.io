@@ -1,6 +1,6 @@
 <!-- Approach -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section bg-light" id="{{ site.data.sitetext[site.locale].approach.section | default: "approach" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext[site.locale].approach.section | default: "approach" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 text-center mx-auto"><!--text-center-->
@@ -16,7 +16,7 @@
   </div>
 </section>
 {% else %}
-<section class="page-section bg-light" id="{{ site.data.sitetext.approach.section | default: "approach" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext.approach.section | default: "approach" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 text-center mx-auto"><!--text-center-->

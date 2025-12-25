@@ -1,6 +1,6 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
+<section class="bg-light page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
   <div class="container">
     <div class="row">
 	    <div class="col-lg-8 text-center mx-auto"><!--text-center-->
@@ -53,7 +53,7 @@
   </div>
 </section>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="page-section{% if include.bg == 'light' %} bg-light{% endif %}" id="{{ site.data.sitetext.team.section | default: "team" }}">
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-8 text-center mx-auto"><!--text-center-->
