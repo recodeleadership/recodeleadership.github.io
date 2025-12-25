@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: #1cabb0;//coral;//$primary;
-  &:hover { //#1cabb0
-    color: darken(#1cabb0, 10%);//($primary, 10%); coral
+  color: #1cabb0; // coral / primary
+  &:hover {
+    color: darken(#1cabb0, 10%);
   }
 }
 
 .text-primary {
-  color: crimson !important;//#1cabb0 !important;//$primary !important;
+  color: crimson !important;
 }
 
 h1,
@@ -30,36 +30,66 @@ h6 {
   color: #4a10bc;
 }
 
+/* =========================
+   Page Sections
+   ========================= */
+
 .page-section {
   padding: 100px 0;
+
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
+
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
     text-transform: none;
     @include serif-font;
+
+    // ⬇️ Reduced from 75px → tighter spacing
+    margin-bottom: 32px;
   }
 }
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
 }
 
-// Highlight color customization
+/* =========================
+   Page Layout Fixes
+   ========================= */
+
+/* Add comfortable mobile padding for long-form pages */
+#pagecontainer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Remove extra padding on larger screens to align with grid */
+@media (min-width: 992px) {
+  #pagecontainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* =========================
+   Highlight color customization
+   ========================= */
+
 ::-moz-selection {
-  background: cornflowerblue;//#1cabb0;//$primary;
+  background: cornflowerblue;
   text-shadow: none;
 }
 
 ::selection {
-  background: darkgoldenrod;//#1cabb0;//$primary;
+  background: darkgoldenrod;
   text-shadow: none;
 }
 
