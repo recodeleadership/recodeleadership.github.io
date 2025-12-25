@@ -14,9 +14,7 @@ en: &DEFAULT_EN
     - title: "Overview"
       section: overview
     - title: "Approach"
-      section: approach
-    - title: "Services"
-      section: services    
+      section: approach 
       # subnav:
       # - title: "Amplifying Your Strengths (50-minute 1:1)"
       #   url: "https://www.recodeleadership.com/services/amplifying-your-strengths"
@@ -30,6 +28,8 @@ en: &DEFAULT_EN
     #   section: team
     - title: "Meet Amy"
       section: meet-amy
+    - title: "Services"
+      section: services   
     # - title: "Portfolio"
     #   section: portfolio
     - title: "Testimonials"
