@@ -23,6 +23,9 @@ en: &DEFAULT_EN
     text: "How we can work together"
     section: services
     list:
+      - title: "1:1 Coaching"
+        url: "services/1on1-coaching"
+        desc: ""
       - title: "Amplifying Your Strengths (50-minute 1:1) ➜"
         url: "services/amplifying-your-strengths"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
