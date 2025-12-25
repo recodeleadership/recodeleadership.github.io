@@ -5,6 +5,7 @@ subtitle: Interactive talks and workshops designed to inspire quiet leaders to a
 background: grey
 cta_text: Inquire About Booking
 cta_link: "#contact"
+hero_bg: light
 ---
 
 ### The Environment You’re Leading In

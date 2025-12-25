@@ -5,6 +5,7 @@ subtitle: A guided group journey for quiet leaders ready to grow their presence,
 background: grey
 cta_text: Join the Waitlist
 cta_link: "#contact"
+hero_bg: light
 ---
 
 ### The Environment You’re Leading In

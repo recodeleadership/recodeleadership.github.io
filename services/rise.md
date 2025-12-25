@@ -5,6 +5,7 @@ subtitle: A sustained coaching partnership for quiet leaders ready to be seen, t
 background: grey
 cta_text: Request a Conversation
 cta_link: "#contact"
+hero_bg: light
 ---
 
 ### The Environment You’re Leading In

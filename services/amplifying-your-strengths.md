@@ -5,6 +5,7 @@ subtitle: An invitation to be recognized for your strengths—beyond your quietn
 background: grey
 cta_text: Book Your Session
 cta_link: "https://tidycal.com/recodeleadership/amplifying-your-strengths-session"
+hero_bg: light
 ---
 
 No time slots available at the moment? Please join the waitlist, and I’ll personally let you know when new sessions open up.
