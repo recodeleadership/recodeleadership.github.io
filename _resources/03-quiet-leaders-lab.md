@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Quiet Leaders Lab
   subtitle: A monthly space to reflect, experiment, and grow as a quiet leader
-  thumbnail: assets/img/resources/quiet-leaders-lab.png #700x460
+  thumbnail: assets/img/resources/quiet-leaders-lab-400x300.png #700x460
   
 #what displays when the item is clicked:
 title: Quiet Leaders Lab
 subtitle: A monthly space to reflect, experiment, and grow as a quiet leader
-image: assets/img/resources/quiet-leaders-lab.png #700x460 #main image, can be a link or a file in assets/img/portfolio
+image: assets/img/resources/quiet-leaders-lab-400x300.png #700x460 #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

@@ -1,18 +1,20 @@
 ---
 title: Reground Your Strengths
 subtitle: A framework to help you reconnect with what grounds you
-image: assets/img/portfolio/04-thumbnail.jpg #700x460
+image: assets/img/resources/reground-your-strengths-400x300.png #700x460
 alt: Shirts on a hanger
 
 caption:
   title: Reground Your Strengths
   subtitle: A framework to help you reconnect with what grounds you
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg #400x300
+  thumbnail: assets/img/resources/reground-your-strengths-400x300.png #400x300
 ---
 
-When leadership feels unsteady or you find yourself questioning your value, this framework offers a way to pause, reflect, and reconnect with your strengths. It’s designed to help quiet leaders regain clarity, confidence, and a sense of direction — without needing to change who they are.
+When leadership feels unsteady — especially during periods of uncertainty, change, or low morale — this framework offers a way to pause, reflect, and reconnect with your strengths. It was created to support leaders who continue showing up and serving, even when the environment around them feels unstable.
 
-Use this resource when you feel stuck, overlooked, or unsure of your next step, and want something practical yet gentle to guide you forward.
+This resource is especially helpful if you’re navigating uncertainty, feeling overlooked, or questioning your impact, and want something practical yet gentle to help you regain clarity and grounding without needing to change who you are.
+
+This framework comes from a closing keynote I delivered at GovLoop’s NextGen Summit in October 2025, during a time of significant uncertainty for federal employees. It was designed to help government leaders reconnect with what grounds them amid shutdowns, transitions, and declining morale.
 
 ### [🎥 Watch the recording](https://academy.govloop.com/watch/NosWAHsgss7UkGzYGLbmfb)
 
