@@ -1,18 +1,11 @@
 ---
 layout: page
 title: Amplifying Your Strengths
+subtitle: An invitation to be recognized for your strengths—beyond your quietness.
 background: grey
+cta_text: Book Your Session
+cta_link: "https://tidycal.com/recodeleadership/amplifying-your-strengths-session"
 ---
-
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading">Amplifying Your Strengths (50-minute 1:1)</h2>
-	<br>
-</div>
-
-#### *An invitation to be recognized for your strengths—beyond your quietness.*
-
-### 👉 [Click Here to Book Your Session](https://tidycal.com/recodeleadership/amplifying-your-strengths-session)
-<br>
 
 No time slots available at the moment? Please join the waitlist, and I’ll personally let you know when new sessions open up.
 
@@ -63,7 +56,7 @@ Imagine…
 This is what becomes possible when your strengths are invited forward.
 
 
-### 👉 [Click Here to Book Your Session](https://tidycal.com/recodeleadership/amplifying-your-strengths-session)
+### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
 <br>
 
 ### 🌿 The Invitation
@@ -120,7 +113,7 @@ In our 1:1 session, you’ll be guided to:
 
 If this resonates with you, I warmly invite you to join me.
 
-### 👉 [Click Here to Book the Session Now](https://tidycal.com/recodeleadership/amplifying-your-strengths-session)
+### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
 <br>
 
 No time slots available at the moment? Please [join the waitlist here](https://forms.gle/JPEdmr5xzLHqXN2L6), and I’ll personally let you know when new sessions open up.
@@ -175,5 +168,5 @@ I only open my calendar about two weeks in advance and hold sessions during dedi
 
 I don’t offer refunds, but I completely understand that life happens. If something comes up, I’m happy to help you reschedule your session so we can meet at a better time for you.
 
-### 👉 [Click Here to Book Your Session](https://tidycal.com/recodeleadership/amplifying-your-strengths-session)
-<br><br><br>
+---
+

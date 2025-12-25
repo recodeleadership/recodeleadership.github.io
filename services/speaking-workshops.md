@@ -1,18 +1,11 @@
 ---
 layout: page
 title: Speaking & Workshops
+subtitle: Interactive talks and workshops designed to inspire quiet leaders to amplify their strengths, presence, and impact.
 background: grey
+cta_text: Inquire About Booking
+cta_link: "#contact"
 ---
-
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading">Speaking & Workshops</h2>
-	<br>
-</div>
-
-#### *Interactive talks and workshops designed to inspire quiet leaders to amplify their strengths, presence, and impact.*
-
-### 👉 [Inquire About Booking](#contact)
-<br>
 
 ### The Environment You’re Leading In
 
@@ -68,5 +61,4 @@ Organizations, teams, and leaders who want:
 Custom pricing depends on session length, format, and audience size.  
 Please reach out to discuss your goals and receive a **tailored proposal**.  
 
-### 👉 [Inquire About Booking](#contact)
-<br><br><br>
+---

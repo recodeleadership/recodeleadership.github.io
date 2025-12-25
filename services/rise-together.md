@@ -1,18 +1,11 @@
 ---
 layout: page
 title: RISE Together
+subtitle: A guided group journey for quiet leaders ready to grow their presence, visibility, and confidence — together.
 background: grey
+cta_text: Join the Waitlist
+cta_link: "#contact"
 ---
-
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading">RISE Together (3-Month Group Experience)</h2>
-	<br>
-</div>
-
-#### *A guided group journey for quiet leaders ready to grow their presence, visibility, and confidence — together.*
-
-### 👉 [Join the Waitlist](#contact)
-<br>
 
 ### The Environment You’re Leading In
 
@@ -104,7 +97,7 @@ This includes all sessions, materials, and access to a private peer discussion s
 
 Because this program is interactive and relational, enrollment is limited to ensure meaningful engagement.
 
-### 👉 [Join the Waitlist](#contact)
+### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
 
 ---
 
@@ -131,5 +124,3 @@ Absolutely. Many participants complement the group experience with individual co
 
 ---
 
-### 👉 [Join the Waitlist](#contact)
-<br><br><br>

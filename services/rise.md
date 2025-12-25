@@ -1,18 +1,11 @@
 ---
 layout: page
-title: RISE 1:1
+title: RISE 1:1 Coaching
+subtitle: A sustained coaching partnership for quiet leaders ready to be seen, trusted, and recognized — without becoming someone they’re not
 background: grey
+cta_text: Request a Conversation
+cta_link: "#contact"
 ---
-
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading">RISE 1:1 Coaching</h2>
-	<br>
-</div>
-
-#### *A sustained coaching partnership for quiet leaders ready to be seen, trusted, and recognized — without becoming someone they’re not.*
-
-### 👉 [Request a Conversation](#contact)
-<br>
 
 ### The Environment You’re Leading In
 
@@ -170,7 +163,7 @@ RISE is for those ready to work with their leadership over time.
 
 Because this work is deeply personal and relational, I begin with a conversation to ensure mutual fit.
 
-### 👉 [Request a Conversation](#contact)
+### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
 
 ---
 
@@ -196,6 +189,3 @@ Yes. Many clients come to RISE not because they’re failing, but because they�
 If this page feels like it’s naming things you’ve struggled to articulate — that’s often a good signal. A conversation will help us decide together.
 
 ---
-
-### 👉 [Request a Conversation](#contact)
-<br><br><br>

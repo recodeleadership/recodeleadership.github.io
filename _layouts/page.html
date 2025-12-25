@@ -9,8 +9,55 @@ document.getElementById("page-top").className="bg-light";
 </script>
 {% endif %}
 
-<div class="container" id="pagecontainer">
-    <div class="col-lg-8 mx-auto">
-        {{ content }}
+<div class="container page-section" id="pagecontainer">
+
+  <!-- Page Header -->
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center">
+
+      {% if page.title %}
+        <h2 class="section-heading">{{ page.title }}</h2>
+      {% endif %}
+
+      {% if page.subtitle %}
+        <h3 class="section-subheading text-muted">
+          {{ page.subtitle }}
+        </h3>
+      {% endif %}
+
+      {% if page.cta_link and page.cta_text %}
+        <div class="my-4">
+          <a
+            class="btn btn-primary btn-xl js-scroll-trigger"
+            href="{{ page.cta_link }}"
+          >
+            {{ page.cta_text }}
+          </a>
+        </div>
+      {% endif %}
+
     </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- Bottom CTA -->
+  {% if page.cta_link and page.cta_text %}
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center my-5">
+      <a
+        class="btn btn-primary btn-xl js-scroll-trigger"
+        href="{{ page.cta_link }}"
+      >
+        {{ page.cta_text }}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+
 </div>
