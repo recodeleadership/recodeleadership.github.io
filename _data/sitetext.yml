@@ -23,9 +23,9 @@ en: &DEFAULT_EN
     text: "How we can work together"
     section: services
     list:
-      - title: "1:1 Coaching"
-        url: "services/1on1-coaching"
-        desc: ""
+      # - title: "1:1 Coaching"
+      #   url: "services/1on1-coaching"
+      #   desc: ""
       - title: "Amplifying Your Strengths (50-minute 1:1) ➜"
         url: "services/amplifying-your-strengths"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
@@ -42,7 +42,7 @@ en: &DEFAULT_EN
       #   url: "services/quiet-leaders-lab"
       #   desc: "A safe community space for quiet leaders to learn, experiment, and grow alongside peers."
       - title: "Speaking & Workshops ➜"
-        url: "services/speaking-workshop"
+        url: "services/speaking-workshops"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
       - title: "Need something else? ➜"
         url: "#contact"
