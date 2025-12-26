@@ -4,7 +4,7 @@ title: RISE 1:1 Coaching
 subtitle: A sustained coaching partnership for quiet leaders ready to be seen, trusted, and recognized — without becoming someone they’re not
 background: grey
 cta_text: Request a Conversation
-cta_link: "#contact"
+cta_link: "https://forms.gle/gx3JBM2cUXf2PsZWA"
 hero_bg: light
 ---
 

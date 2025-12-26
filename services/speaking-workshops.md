@@ -4,7 +4,7 @@ title: Speaking & Workshops
 subtitle: Interactive talks and workshops designed to inspire quiet leaders to amplify their strengths, presence, and impact.
 background: grey
 cta_text: Inquire About Booking
-cta_link: "#contact"
+cta_link: "https://forms.gle/gx3JBM2cUXf2PsZWA"
 hero_bg: light
 ---
 

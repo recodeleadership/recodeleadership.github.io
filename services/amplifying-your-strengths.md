@@ -8,7 +8,7 @@ cta_link: "https://tidycal.com/recodeleadership/amplifying-your-strengths-sessio
 hero_bg: light
 ---
 
-No time slots available at the moment? Please join the waitlist, and I’ll personally let you know when new sessions open up.
+No time slots available at the moment? Please [join the waitlist here](https://forms.gle/JPEdmr5xzLHqXN2L6), and I’ll personally let you know when new sessions open up.
 
 
 ### The Environment We’re In
@@ -163,7 +163,7 @@ No time slots available at the moment? Please [join the waitlist here](https://f
 
 **Why are there no available time slots right now?**
 
-I only open my calendar about two weeks in advance and hold sessions during dedicated times each week so I can give you my full attention and energy. Life can happen to all of us, and this approach helps me stay flexible and fully present for you. If no time slots are available, please join the waitlist here — I’ll notify you as soon as new sessions open up.
+I only open my calendar about two weeks in advance and hold sessions during dedicated times each week so I can give you my full attention and energy. Life can happen to all of us, and this approach helps me stay flexible and fully present for you. If no time slots are available, please [join the waitlist here](https://forms.gle/JPEdmr5xzLHqXN2L6) — I’ll notify you as soon as new sessions open up.
 
 **Can I get a refund?**
 

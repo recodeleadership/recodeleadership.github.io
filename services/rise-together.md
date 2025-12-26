@@ -4,7 +4,7 @@ title: RISE Together
 subtitle: A guided group journey for quiet leaders ready to grow their presence, visibility, and confidence — together.
 background: grey
 cta_text: Join the Waitlist
-cta_link: "#contact"
+cta_link: "https://forms.gle/gx3JBM2cUXf2PsZWA"
 hero_bg: light
 ---
 

@@ -45,9 +45,8 @@ en: &DEFAULT_EN
         url: "services/speaking-workshops"
         desc: "Interactive talks and workshops focused on quiet leadership, strengths development, and building confidence at work. Designed to inspire action and deepen self-awareness."
       - title: "Need something else? ➜"
-        url: "#contact"
+        url: "https://forms.gle/gx3JBM2cUXf2PsZWA"
         desc: Let's connect and explore what support would help you and your team move forward.
-        anchor: true
   # portfolio:
   #   title: "Portfolio"
   #   text: "Lorem ipsum dolor sit amet consectetur."
