@@ -47,6 +47,7 @@ en: &DEFAULT_EN
       - title: "Need something else? ➜"
         url: "https://forms.gle/gx3JBM2cUXf2PsZWA"
         desc: Let's connect and explore what support would help you and your team move forward.
+        external: true
   # portfolio:
   #   title: "Portfolio"
   #   text: "Lorem ipsum dolor sit amet consectetur."
