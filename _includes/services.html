@@ -7,7 +7,7 @@
         <div class="col-lg-8 text-center mx-auto"><!---->
           <h2 class="section-heading">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
           {% if site.data.sitetext[site.locale].services.text %}
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
+		  <h3 class="section-subheading">{{ site.data.sitetext[site.locale].services.text }}</h3>
 		  {% endif %}
         </div>
       </div>
@@ -21,7 +21,7 @@
           <!--</span>-->
           <!-- <h4 class="service-heading">{{ service.title | markdownify }}</h4> -->
           <h4 class="service-heading"><a {% if service.anchor %}class="js-scroll-trigger"{% endif %} href="{{ site.baseurl }}/{{ service.url }}">{{ service.title | markdownify }}</a></h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.desc %}<div>{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
       </div>
@@ -36,7 +36,7 @@
       <div class="col-lg-8 text-center mx-auto"><!--text-center-->
         <h2 class="section-heading">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
         {% if site.data.sitetext.services.text %}
-    <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
+    <h3 class="section-subheading">{{ site.data.sitetext.services.text }}</h3>
     {% endif %}
       </div>
     </div>
@@ -49,7 +49,7 @@
           <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
         </span>
         <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+        {% if service.desc %}<div>{{ service.desc | markdownify }}</div>{% endif %}
       </div>
   {% endfor %}
     </div>

@@ -5,7 +5,7 @@
     <div class="row">
 	    <div class="col-lg-8 text-center mx-auto"><!--text-center-->
 	      <h2 class="section-heading">{{ site.data.sitetext[site.locale].testimonials.title }}</h2>
-	      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].testimonials.text }}</h3>
+	      <h3 class="section-subheading">{{ site.data.sitetext[site.locale].testimonials.text }}</h3>
   	  </div>
     </div>
     <div class="row">
@@ -58,7 +58,7 @@
 	  <div class="row">
 		<div class="col-lg-8 text-center mx-auto"><!--text-center-->
 		  <h2 class="section-heading">{{ site.data.sitetext.team.title }}</h2>
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+		  <h3 class="section-subheading">{{ site.data.sitetext.team.text }}</h3>
 		</div>
 	  </div>
 	  <div class="row d-flex justify-content-center">
@@ -67,7 +67,7 @@
 		  <div class="team-member">
 			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 			<h4>{{ person.name }}</h4>
-			<p class="text-muted">{{ person.role }}</p>
+			<p>{{ person.role }}</p>
 			<ul class="list-inline social-buttons">
 			{% for network in person.social %}
 			  <li class="list-inline-item">
@@ -83,7 +83,7 @@
 	  </div>
 	  <div class="row">
 		<div class="col-lg-8 mx-auto"><!--text-center-->
-		  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
+		  <div class="large">{{ site.data.sitetext.team.subtext | markdownify }}</div>
 		</div>
 	  </div>
 	</div>
