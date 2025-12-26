@@ -110,7 +110,8 @@ In our 1:1 session, you’ll be guided to:
 - A **personalized, repeatable framework** you can use to apply your strengths in future moments.
 
 
-### ✨ Introductory investment: $198 (valued at $499).
+### ✨ Introductory investment
+$198 (valued at $499).
 
 If this resonates with you, I warmly invite you to join me.
 
@@ -120,7 +121,7 @@ If this resonates with you, I warmly invite you to join me.
 No time slots available at the moment? Please [join the waitlist here](https://forms.gle/JPEdmr5xzLHqXN2L6), and I’ll personally let you know when new sessions open up.
 
 ### Testimonials
-*“I have found Amy’s coaching style and sessions to be incredibly helpful in determining how best to leverage the strengths of myself and my team(s) and navigating challenging situations!  Amy excels at not only listening to the information and challenges I share with her, but also hearing and picking up what I may not be saying or seeing myself.  She will reflect things back to me in ways that help me see different perspectives or alternatives to approaching a situation, or reframe an idea in a way that is much better suited for whatever I might be facing.  This has enabled me to tap into my existing strengths while bolstering other areas in ways that are consistent with my values and align with the goals I am trying to achieve.  Thank you, Amy!”& – Carlo C, Senior Engineering Leader
+*“I have found Amy’s coaching style and sessions to be incredibly helpful in determining how best to leverage the strengths of myself and my team(s) and navigating challenging situations!  Amy excels at not only listening to the information and challenges I share with her, but also hearing and picking up what I may not be saying or seeing myself.  She will reflect things back to me in ways that help me see different perspectives or alternatives to approaching a situation, or reframe an idea in a way that is much better suited for whatever I might be facing.  This has enabled me to tap into my existing strengths while bolstering other areas in ways that are consistent with my values and align with the goals I am trying to achieve.  Thank you, Amy!”* – Carlo C, Senior Engineering Leader
 
 
 ### FAQ
