@@ -10,6 +10,12 @@
     border: 0;
     background-color: #1cabb0; //menu button//orchid;//#1cabb0;//$primary;
     @include heading-font;
+    &:focus,
+    &:active,
+    &:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(28, 171, 176, 0.35);
+    }
   }
   .navbar-brand {
     color: #4910bc;//palevioletred;//#1cabb0;//$primary;
