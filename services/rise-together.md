@@ -1,6 +1,8 @@
 ---
 layout: page
 title: RISE Together
+description: A small-group coaching experience for quiet leaders ready to grow confidence, visibility, and leadership presence—together.
+url: /services/rise-together
 subtitle: A guided group journey for quiet leaders ready to grow their presence, visibility, and confidence — together.
 background: grey
 cta_text: Join the Waitlist

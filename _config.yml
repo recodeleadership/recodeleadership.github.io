@@ -16,9 +16,9 @@ theme: jekyll-agency
 url    : "https://www.recodeleadership.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/agency" # the subpath of your site, e.g. /blog
 
-title      : Recode Leadership LLC
-email      : me@email.com #this is also the email contact forms will go to
-description: "Recode Leadership LLC, helping and guiding quiet leaders to lead with confidence so they can be recognized and valued for who they truly are."
+title      : "Recode Leadership | Leadership Coaching for Quiet, High-Achieving Leaders"
+email      : #this is also the email contact forms will go to
+description: "Recode Leadership helps quiet, high-achieving leaders amplify their strengths, gain confidence, and be recognized at work. Discover coaching, workshops, and resources."
 author     : Amy Mok
 logo:     #optional, defaults to site title
   path: assets/img/recodeleadership.png

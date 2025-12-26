@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Speaking & Workshops
+description: Talks and workshops on quiet leadership, strengths-based confidence, and sustainable visibility at work.
+url: /services/speaking-workshops
 subtitle: Interactive talks and workshops designed to inspire quiet leaders to amplify their strengths, presence, and impact.
 background: grey
 cta_text: Inquire About Booking

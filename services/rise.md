@@ -1,6 +1,8 @@
 ---
 layout: page
 title: RISE 1:1 Coaching
+description: Personalized 1:1 coaching for quiet leaders to amplify their strengths and grow in confidence.
+url: /services/rise
 subtitle: A sustained coaching partnership for quiet leaders ready to be seen, trusted, and recognized — without becoming someone they’re not
 background: grey
 cta_text: Request a Conversation

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Amplifying Your Strengths
+description: A focused 50-minute 1:1 coaching session to help quiet leaders clarify and amplify their strengths in real leadership situations.
+url: /services/amplifying-your-strengths
 subtitle: An invitation to be recognized for your strengths—beyond your quietness.
 background: grey
 cta_text: Book Your Session
