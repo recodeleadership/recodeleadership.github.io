@@ -1,10 +1,7 @@
----
-layout: default
----
 {% include nav.html %}
 
-<!-- Page Hero / Top Section -->
-<section class="page-section page-hero {% if page.hero_bg == 'light' %}bg-light{% endif %}">
+<!-- Page Hero -->
+<section class="page-hero {% if page.hero_bg == 'light' %}bg-light{% endif %}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
@@ -21,10 +18,7 @@ layout: default
 
         {% if page.cta_link and page.cta_text %}
           <div class="mt-4">
-            <a
-              class="btn btn-primary btn-xl js-scroll-trigger"
-              href="{{ page.cta_link }}"
-            >
+            <a class="btn btn-primary btn-xl" href="{{ page.cta_link }}">
               {{ page.cta_text }}
             </a>
           </div>
@@ -36,18 +30,16 @@ layout: default
 </section>
 
 <!-- Divider -->
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <hr class="my-5">
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <hr class="my-5">
     </div>
   </div>
-</section>
+</div>
 
 <!-- Page Content -->
-<section class="page-section page-body">
+<section class="page-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
@@ -56,21 +48,3 @@ layout: default
     </div>
   </div>
 </section>
-
-<!-- Bottom CTA -->
-{% if page.cta_link and page.cta_text %}
-<section class="page-section page-cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <a
-          class="btn btn-primary btn-xl js-scroll-trigger"
-          href="{{ page.cta_link }}"
-        >
-          {{ page.cta_text }}
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
