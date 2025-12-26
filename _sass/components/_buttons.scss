@@ -17,7 +17,7 @@
   &:hover {
     background-color: darken(#1cabb0, 7.5%) !important;//green, darken($primary, 7.5%) !important; #1cabb0
     border-color: darken(#1cabb0, 7.5%) !important;//indianred, darken($primary, 7.5%) !important; #1cabb0
-    color: khaki;//white;
+    color: darken(white, 7.5%) !important;//khaki;//white;
   }
   &:active,
   &:focus {
