@@ -12,13 +12,13 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: palevioletred;//#1cabb0;//$primary;
+    color: #4910bc;//palevioletred;//#1cabb0;//$primary;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken(#ebdcf9, 10%);//darken(saddlebrown, 10%);//darken($primary, 10%);#1cabb0
+      color: darken(#4910bc, 50%);//darken(#ebdcf9, 10%);//darken(saddlebrown, 10%);//darken($primary, 10%);#1cabb0
     }
   }
   .navbar-nav {
@@ -32,7 +32,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: #24085b;//blueviolet;//#1cabb0;//$primary;
+          color: darken(#4910bc, 50%);//#4910bc;//#24085b;//blueviolet;//#1cabb0;//$primary;
         }
       }
     }

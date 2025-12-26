@@ -117,7 +117,7 @@
     width: 75px;
     height: 75px;
     cursor: pointer;
-    background-color: mediumaquamarine;//transparent;
+    background-color: transparent;//mediumaquamarine;//transparent;
     &:hover {
       opacity: 0.3;
     }
@@ -131,7 +131,7 @@
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      background-color: lime;//$gray-900;
+      background-color: #1cabb0;//lime;//$gray-900;
       .rl {
         /* Safari and Chrome */
         z-index: 1052;
@@ -141,7 +141,7 @@
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: lightgoldenrodyellow;//$gray-900;
+        background-color: #1cabb0;//lightgoldenrodyellow;//$gray-900;
       }
     }
   }

@@ -21,6 +21,7 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem lawngreen !important;//rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.25rem rgba(28, 171, 176, 0.35) !important;
+    // box-shadow: 0 0 0 0.2rem lawngreen !important;//rgba(254, 209, 55, 0.5) !important;
   }
 }
