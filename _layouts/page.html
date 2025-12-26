@@ -1,50 +1,70 @@
+---
+layout: default
+---
 {% include nav.html %}
 
-<!-- Page Hero -->
-<section class="page-hero {% if page.hero_bg == 'light' %}bg-light{% endif %}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+document.getElementById("page-top").className="bg-light";
+</script>
+{% endif %}
 
-        {% if page.title %}
-          <h2 class="section-heading">{{ page.title }}</h2>
-        {% endif %}
+<div class="container page-section" id="pagecontainer">
 
-        {% if page.subtitle %}
-          <h3 class="section-subheading text-muted">
-            {{ page.subtitle }}
-          </h3>
-        {% endif %}
+  <!-- Page Header -->
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center bg-light">
 
-        {% if page.cta_link and page.cta_text %}
-          <div class="mt-4">
-            <a class="btn btn-primary btn-xl" href="{{ page.cta_link }}">
-              {{ page.cta_text }}
-            </a>
-          </div>
-        {% endif %}
+      {% if page.title %}
+        <h2 class="section-heading">{{ page.title }}</h2>
+      {% endif %}
 
-      </div>
+      {% if page.subtitle %}
+        <h3 class="section-subheading text-muted">
+          {{ page.subtitle }}
+        </h3>
+      {% endif %}
+
+      {% if page.cta_link and page.cta_text %}
+        <div class="mt-2">
+          <a
+            class="btn btn-primary btn-xl js-scroll-trigger"
+            href="{{ page.cta_link }}"
+          >
+            {{ page.cta_text }}
+          </a>
+        </div>
+      {% endif %}
+
     </div>
   </div>
-</section>
 
-<!-- Divider -->
-<div class="container">
+  <!-- Divider -->
   <div class="row">
     <div class="col-lg-8 mx-auto">
       <hr class="my-5">
     </div>
   </div>
-</div>
 
-<!-- Page Content -->
-<section class="page-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        {{ content }}
-      </div>
+  <!-- Page Content -->
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      {{ content }}
     </div>
   </div>
-</section>
+
+  <!-- Bottom CTA -->
+  {% if page.cta_link and page.cta_text %}
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center my-5">
+      <a
+        class="btn btn-primary btn-xl js-scroll-trigger"
+        href="{{ page.cta_link }}"
+      >
+        {{ page.cta_text }}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+
+</div>

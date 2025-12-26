@@ -1,7 +1,4 @@
-// ======================================
 // Global styling for this template
-// ======================================
-
 body {
   overflow-x: hidden;
   @include body-font;
@@ -33,26 +30,9 @@ h6 {
   color: #4a10bc;
 }
 
-/* ======================================
-   Page Hero (Title / Subtitle / CTA)
-   Handles navbar offset correctly
-   ====================================== */
-
-.page-hero {
-  padding-top: 140px; // navbar offset + breathing room
-  padding-bottom: 80px;
-}
-
-@media (max-width: 768px) {
-  .page-hero {
-    padding-top: 110px;
-    padding-bottom: 60px;
-  }
-}
-
-/* ======================================
-   Page Sections (Content + Body)
-   ====================================== */
+/* =========================
+   Page Sections
+   ========================= */
 
 .page-section {
   padding: 100px 0;
@@ -70,29 +50,28 @@ h6 {
     text-transform: none;
     @include serif-font;
 
-    // tighter than original 75px
+    // ⬇️ Reduced from 75px → tighter spacing
     margin-bottom: 32px;
   }
 }
 
-/* Larger screens: give sections more breathing room */
 @media (min-width: 768px) {
-  section.page-section {
+  section {
     padding: 150px 0;
   }
 }
 
-/* ======================================
+/* =========================
    Page Layout Fixes
-   ====================================== */
+   ========================= */
 
-/* Mobile-friendly padding so text doesn't hug edges */
+/* Add comfortable mobile padding for long-form pages */
 #pagecontainer {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-/* Align content perfectly with Bootstrap grid on desktop */
+/* Remove extra padding on larger screens to align with grid */
 @media (min-width: 992px) {
   #pagecontainer {
     padding-left: 0;
@@ -100,18 +79,9 @@ h6 {
   }
 }
 
-/* ======================================
-   Divider styling (optional but consistent)
-   ====================================== */
-
-hr {
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* ======================================
+/* =========================
    Highlight color customization
-   ====================================== */
+   ========================= */
 
 ::-moz-selection {
   background: cornflowerblue;
