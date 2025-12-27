@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,6 +36,14 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
+      - name: Debug secret presence
+        env:
+          GA_ID: ${{ secrets.GA_ID }}
+          FORMSPREE_ID: ${{ secrets.FORMSPREE_ID }}
+        run: |
+          echo "GA_ID: ${GA_ID:+SET}"
+          echo "FORMSPREE_ID: ${FORMSPREE_ID:+SET}"
+          
       - name: Build site with Jekyll
         run: bundle exec jekyll build -s ./ -d ./_site
         env:
