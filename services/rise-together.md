@@ -95,7 +95,8 @@ By the end of the 3-month program, you will:
 
 ## Investment
 
-**RISE Together 3-month group experience starts at $1250 per participant.**  
+RISE Together 3-month group experience starts at $1,250 per participant. 
+
 This includes all sessions, materials, and access to a private peer discussion space.  
 
 Because this program is interactive and relational, enrollment is limited to ensure meaningful engagement.

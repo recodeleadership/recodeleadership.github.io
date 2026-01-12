@@ -162,7 +162,7 @@ RISE is for those ready to work with their leadership over time.
 
 ## Investment
 
-**RISE 1:1 investment starts at $2,500**, depending on the length of the partnership (3 or 6 months) and level of support.
+RISE 1:1 investment starts at $2,500, depending on the length of the partnership (3 or 6 months) and level of support.
 
 Because this work is deeply personal and relational, I begin with a conversation to ensure mutual fit.
 
