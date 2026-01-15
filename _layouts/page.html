@@ -36,6 +36,16 @@ document.getElementById("page-top").className="bg-light";
         </div>
       {% endif %}
 
+      {% if page.image %}
+        <div class="page-hero mt-4">
+          <img
+            src="{{ page.image }}"
+            alt="{{ page.title }}"
+            class="img-fluid rounded"
+          >
+        </div>
+      {% endif %}
+
     </div>
   </div>
 

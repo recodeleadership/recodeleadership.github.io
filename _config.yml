@@ -32,6 +32,9 @@ analytics:
 collections:
   portfolio:
   resources:
+  qll-gatherings:
+    output: true
+    permalink: /resources/quiet-leaders-lab/:slug/
 
 markdown: kramdown
 
