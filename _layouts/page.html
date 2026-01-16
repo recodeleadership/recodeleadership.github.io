@@ -77,4 +77,19 @@ document.getElementById("page-top").className="bg-light";
   </div>
   {% endif %}
 
+  {% if page.cta_event %}
+  <div class="text-center my-5">
+    <a
+      href="{{ page.cta_event.url }}"
+      class="luma-checkout--button btn btn-primary btn-xl"
+      data-luma-action="checkout"
+    >
+      {{ page.cta_event.text }}
+    </a>
+
+    <script src="https://embed.lu.ma/checkout-button.js"></script>
+  </div>
+  {% endif %}
+
+
 </div>

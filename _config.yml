@@ -34,7 +34,7 @@ collections:
   resources:
   qll-gatherings:
     output: true
-    permalink: /resources/quiet-leaders-lab/:slug/
+    permalink: /resources/quiet-leaders-lab/:name/
 
 markdown: kramdown
 

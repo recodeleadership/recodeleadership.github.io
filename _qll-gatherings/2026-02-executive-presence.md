@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Visibility Without Becoming Loud
-slug: 2026-01-visibility
-date: 2026-01-14
+title: Executive Presence
+slug: 2026-02-executive-presence
+date: 2026-02-11
 summary: Exploring the tension between wanting to be seen and wanting to stay true to ourselves as quiet leaders.
 image: /assets/img/quiet-leaders-lab/2026-01-visibility.jpg
 cta_event:
