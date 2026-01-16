@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visibility Without Becoming Loud
+title: Visibility
 slug: 2026-01-visibility
 date: 2026-01-14
 summary: Exploring the tension between wanting to be seen and wanting to stay true to ourselves as quiet leaders.
