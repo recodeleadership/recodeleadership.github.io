@@ -78,18 +78,32 @@ document.getElementById("page-top").className="bg-light";
   {% endif %}
 
   {% if page.cta_event %}
-  <div class="text-center my-5">
-    <a
-      href="{{ page.cta_event.url }}"
-      class="luma-checkout--button btn btn-primary btn-xl"
-      data-luma-action="checkout"
-    >
-      {{ page.cta_event.text }}
-    </a>
+  {% assign event_ts = page.date | date: "%s" %}
+  {% assign now_ts = "now" | date: "%s" %}
+  {% assign is_past_event = event_ts < now_ts %}
 
-    <script src="https://embed.lu.ma/checkout-button.js"></script>
+  <div class="text-center my-5">
+    {% if is_past_event %}
+      <button
+        class="btn btn-secondary btn-xl disabled qll-event-cta--past"
+        aria-disabled="true"
+      >
+        Registration closed
+      </button>
+    {% else %}
+      <a
+        href="{{ page.cta_event.url }}"
+        class="luma-checkout--button btn btn-primary btn-xl"
+        data-luma-action="checkout"
+      >
+        {{ page.cta_event.text }}
+      </a>
+
+      <script src="https://embed.lu.ma/checkout-button.js"></script>
+    {% endif %}
   </div>
-  {% endif %}
+{% endif %}
+
 
 
 </div>

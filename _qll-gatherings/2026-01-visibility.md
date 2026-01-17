@@ -3,7 +3,7 @@ layout: page
 title: Visibility
 slug: 2026-01-visibility
 date: 2026-01-14
-summary: Exploring the tension between wanting to be seen and wanting to stay true to ourselves as quiet leaders.
+summary: Exploring your relationship with visibility.
 image: /assets/img/quiet-leaders-lab/2026-01-visibility.jpg
 cta_event:
   type: luma
@@ -14,25 +14,50 @@ cta_event:
 
 ## About this gathering
 
-Visibility can feel deeply uncomfortable for quiet leaders.
+This month’s focus is **Visibility**.
 
-There’s often a pull to stay focused on the work, support others, and avoid the spotlight — and at the same time, a growing awareness that being unseen can limit impact, recognition, and growth.
+​What is your relationship with visibility right now? Does it feel too performative? Does it feel too exposed? We’ll explore what it’s like to be seen (or not seen), what feels calming or restless around visibility, and what kinds of visibility feel supportive rather than draining.
 
-In this session, we explored how visibility doesn’t have to mean being louder, faster, or more performative — and what it *can* look like when it’s grounded and intentional.
+​We’ll spend time:
+- ​Checking in
+- ​Exploring the question through gentle, facilitated quiet reflection
+- ​Identifying a small, personal experiment to carry into the coming month
 
----
+​This is not a workshop or training. There’s no fixing, no pressure to speak, and no expectation to arrive with answers.
 
-## Reflection questions
-
-- Where do I already show up in quiet but meaningful ways?
-- What stories do I tell myself about visibility?
-- What kind of visibility feels aligned — not forced — right now?
-- What’s one small, safe step toward being seen?
+​It’s a shared space to notice, reflect, and experiment gently — alongside other quiet leaders.
 
 ---
 
-## Resources shared
+## Event Recap
 
-- Slides from the session  
-- Community discussion notes  
-- Optional journaling prompts
+We began with our guiding question:
+- How do I want to relate to visibility in a way that feels more at ease and more true to me?
+
+We then moved into a quiet reflection on the *now*:
+- What’s your relationship with visibility right now?
+
+As we reflected, we explored questions such as:
+- What is your definition of visibility?
+- What does visibility mean to you?
+- What are you currently doing — or not doing — around visibility?
+- How does being seen (or not seen) make you feel?
+- How do you want to be seen — or not seen?
+- What do you want people to notice about you or your work?
+- What assumptions do you hold about visibility?
+- What values feel in tension with being visible?
+
+In our sharing, we named some common challenges many quiet leaders experience.
+There is often a deep desire to create space for others and to be intentional about where and how we show up. Our strengths are sometimes visible — and yet, at the same time, we can feel that our leadership is underestimated or misunderstood. We shared the experience of not being recognized in ways that truly reflect the depth and strength of their leadership.
+
+We closed by designing a small experiment for the coming month:
+- What is one small experiment you can try this month to relate to visibility in a way that feels more at ease and more true to you?
+
+Some experiment ideas we explored included:
+- Gently test an assumption you hold about visibility
+- Try one small thing you usually avoid
+- Notice your feelings when you’re seen — especially the subtle ones
+- Listen to what those feelings might be pointing to
+- Explore a different way you want to be seen
+- See how visibility and a conflicting value might coexist
+- Identify what support would make this easier
