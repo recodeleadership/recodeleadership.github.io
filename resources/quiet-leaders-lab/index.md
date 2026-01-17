@@ -54,14 +54,3 @@ Gatherings may include guided reflection, shared learning, and open conversation
     {% endfor %}
   </div>
 </div>
-
-  <div class="archive-list">
-  {% assign past = site.qll-gatherings
-    | where_exp: "event", "event.date < site.time"
-    | sort: "date"
-    | reverse %}
-  {% for event in past %}
-    {% include qll-archive-item.html event=event %}
-  {% endfor %}
-  </div>
-</div>
