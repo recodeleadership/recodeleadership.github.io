@@ -25,17 +25,6 @@ document.getElementById("page-top").className="bg-light";
         </h3>
       {% endif %}
 
-      {% if page.cta_link and page.cta_text %}
-        <div class="mt-2">
-          <a
-            class="btn btn-primary btn-xl js-scroll-trigger"
-            href="{{ page.cta_link }}"
-          >
-            {{ page.cta_text }}
-          </a>
-        </div>
-      {% endif %}
-
       {% if page.image %}
         <div class="page-hero mt-4">
           <img
@@ -44,6 +33,44 @@ document.getElementById("page-top").className="bg-light";
             class="img-fluid rounded"
           >
         </div>
+      {% endif %}
+
+      {% if page.cta_event or page.cta_link %}
+        {% if page.cta_event %}
+          {% assign event_date = page.date | date: "%Y-%m-%d" %}
+          {% assign today_date = "now" | date: "%Y-%m-%d" %}
+
+          <div class="mt-3">
+            {% if event_date < today_date %}
+              <button
+                class="btn btn-secondary btn-xl disabled qll-event-cta--past"
+                aria-disabled="true"
+              >
+                Registration closed
+              </button>
+            {% else %}
+              <a
+                href="{{ page.cta_event.url }}"
+                class="luma-checkout--button btn btn-primary btn-xl"
+                data-luma-action="checkout"
+              >
+                {{ page.cta_event.text }}
+              </a>
+
+              <script src="https://embed.lu.ma/checkout-button.js"></script>
+            {% endif %}
+          </div>
+
+        {% elsif page.cta_link and page.cta_text %}
+          <div class="mt-3">
+            <a
+              class="btn btn-primary btn-xl js-scroll-trigger"
+              href="{{ page.cta_link }}"
+            >
+              {{ page.cta_text }}
+            </a>
+          </div>
+        {% endif %}
       {% endif %}
 
     </div>
@@ -64,50 +91,46 @@ document.getElementById("page-top").className="bg-light";
   </div>
 
   <!-- Bottom CTA -->
-  {% if page.cta_link and page.cta_text %}
-  <div class="row">
-    <div class="col-lg-8 mx-auto text-center my-5">
-      <a
-        class="btn btn-primary btn-xl js-scroll-trigger"
-        href="{{ page.cta_link }}"
-      >
-        {{ page.cta_text }}
-      </a>
+  {% if page.cta_event or page.cta_link %}
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center my-5">
+
+        {% if page.cta_event %}
+          {% assign event_date = page.date | date: "%Y-%m-%d" %}
+          {% assign today_date = "now" | date: "%Y-%m-%d" %}
+
+          {% if event_date < today_date %}
+            <button
+              class="btn btn-secondary btn-xl disabled qll-event-cta--past"
+              aria-disabled="true"
+            >
+              Registration closed
+            </button>
+          {% else %}
+            <a
+              href="{{ page.cta_event.url }}"
+              class="luma-checkout--button btn btn-primary btn-xl"
+              data-luma-action="checkout"
+            >
+              {{ page.cta_event.text }}
+            </a>
+
+            <script src="https://embed.lu.ma/checkout-button.js"></script>
+          {% endif %}
+
+        {% elsif page.cta_link and page.cta_text %}
+          <a
+            class="btn btn-primary btn-xl js-scroll-trigger"
+            href="{{ page.cta_link }}"
+          >
+            {{ page.cta_text }}
+          </a>
+        {% endif %}
+
+      </div>
     </div>
-  </div>
   {% endif %}
 
-  {% if page.cta_event %}
-{% assign event_ts = page.date | date: "%s" %}
-{% assign now_ts = "now" | date: "%s" %}
-
-{% if event_ts < now_ts %}
-  {% assign is_past_event = true %}
-{% else %}
-  {% assign is_past_event = false %}
-{% endif %}
-
-  <div class="text-center my-5">
-    {% if is_past_event %}
-      <button
-        class="btn btn-secondary btn-xl disabled qll-event-cta--past"
-        aria-disabled="true"
-      >
-        Registration closed
-      </button>
-    {% else %}
-      <a
-        href="{{ page.cta_event.url }}"
-        class="luma-checkout--button btn btn-primary btn-xl"
-        data-luma-action="checkout"
-      >
-        {{ page.cta_event.text }}
-      </a>
-
-      <script src="https://embed.lu.ma/checkout-button.js"></script>
-    {% endif %}
-  </div>
-{% endif %}
 
 
 
