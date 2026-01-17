@@ -1,6 +1,18 @@
 /* =========================
    Archive List (Generic)
    ========================= */
+   
+.archive-section {
+  margin-top: 3rem;
+}
+
+.archive-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.archive-section--past {
+  margin-top: 4rem; // slightly more separation from upcoming
+}
 
 .archive-list {
   display: flex;

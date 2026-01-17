@@ -28,27 +28,29 @@ Gatherings may include guided reflection, shared learning, and open conversation
 <hr>
 
 ---
-<br><br>
 ## Upcoming Gatherings
 
-<div class="archive-list">
-{% assign upcoming = site.qll-gatherings
-  | where_exp: "event", "event.date >= site.time"
-  | sort: "date" %}
-{% for event in upcoming %}
-  {% include qll-archive-item.html event=event %}
-{% endfor %}
+<div class="archive-section archive-section--upcoming">
+  <div class="archive-list">
+  {% assign upcoming = site.qll-gatherings
+    | where_exp: "event", "event.date >= site.time"
+    | sort: "date" %}
+  {% for event in upcoming %}
+    {% include qll-archive-item.html event=event %}
+  {% endfor %}
+  </div>
 </div>
 
-<br><br>
 ## Past Gatherings
 
-<div class="archive-list">
-{% assign past = site.qll-gatherings
-  | where_exp: "event", "event.date < site.time"
-  | sort: "date"
-  | reverse %}
-{% for event in past %}
-  {% include qll-archive-item.html event=event %}
-{% endfor %}
+<div class="archive-section archive-section--past">
+  <div class="archive-list">
+  {% assign past = site.qll-gatherings
+    | where_exp: "event", "event.date < site.time"
+    | sort: "date"
+    | reverse %}
+  {% for event in past %}
+    {% include qll-archive-item.html event=event %}
+  {% endfor %}
+  </div>
 </div>
