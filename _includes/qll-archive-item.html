@@ -1,19 +1,21 @@
-<div class="archive-item">
-  {% if event.image %}
-  <div class="archive-image">
-    <img src="{{ event.image }}" alt="{{ event.title }}">
-  </div>
-  {% endif %}
+<a href="{{ event.url }}" class="archive-item-link">
+  <div class="archive-item">
+    {% if event.image %}
+      <div class="archive-image">
+        <img src="{{ event.image }}" alt="{{ event.title }}">
+      </div>
+    {% endif %}
 
-  <div class="archive-content">
-    <div class="archive-date">
-      {{ event.date | date: "%B %Y" }}
+    <div class="archive-content">
+      <div class="archive-date">
+        {{ event.date | date: "%B %Y" }}
+      </div>
+
+      <h4>{{ event.title }}</h4>
+
+      {% if event.summary %}
+        <p>{{ event.summary }}</p>
+      {% endif %}
     </div>
-
-    <h4>
-      <a href="{{ event.url }}">{{ event.title }}</a>
-    </h4>
-
-    <p>{{ event.summary }}</p>
   </div>
-</div>
+</a>
