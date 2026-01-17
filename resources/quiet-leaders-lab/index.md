@@ -29,7 +29,7 @@ Gatherings may include guided reflection, shared learning, and open conversation
 
 ---
 <div class="archive-section archive-section--upcoming">
-  ## Upcoming Gatherings
+  <h2>Upcoming Gatherings</h2>
 
   <div class="archive-list">
     {% assign upcoming = site.qll-gatherings
@@ -42,7 +42,7 @@ Gatherings may include guided reflection, shared learning, and open conversation
 </div>
 
 <div class="archive-section archive-section--past">
-  ## Past Gatherings
+  <h2>Past Gatherings</h2>
 
   <div class="archive-list">
     {% assign past = site.qll-gatherings
