@@ -80,8 +80,13 @@ document.getElementById("page-top").className="bg-light";
   {% if page.cta_event %}
   {% assign event_ts = page.date | date: "%s" %}
   {% assign now_ts = "now" | date: "%s" %}
-  {% assign is_past_event = event_ts < now_ts %}
+  {% assign now_ts_1 = site.time | date: "%s" %}
+  {% assign is_past_event = event_ts < now_ts_1 %}
 
+  event_ts: {{event_ts}}
+  now_ts: {{now_ts}}
+  now_ts_1: {{now_ts_1}}
+  is_past_event: {{is_past_event}}
   <div class="text-center my-5">
     {% if is_past_event %}
       <button
