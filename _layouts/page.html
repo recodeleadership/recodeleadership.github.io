@@ -78,15 +78,15 @@ document.getElementById("page-top").className="bg-light";
   {% endif %}
 
   {% if page.cta_event %}
-  {% assign event_ts = page.date | date: "%s" %}
-  {% assign now_ts = "now" | date: "%s" %}
-  {% assign now_ts_1 = site.time | date: "%s" %}
-  {% assign is_past_event = event_ts < now_ts_1 %}
+{% assign event_ts = page.date | date: "%s" %}
+{% assign now_ts = "now" | date: "%s" %}
 
-  event_ts: {{event_ts}}
-  now_ts: {{now_ts}}
-  now_ts_1: {{now_ts_1}}
-  is_past_event: {{is_past_event}}
+{% if event_ts < now_ts %}
+  {% assign is_past_event = true %}
+{% else %}
+  {% assign is_past_event = false %}
+{% endif %}
+
   <div class="text-center my-5">
     {% if is_past_event %}
       <button
