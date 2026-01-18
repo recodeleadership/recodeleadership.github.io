@@ -25,6 +25,12 @@ document.getElementById("page-top").className="bg-light";
         </h3>
       {% endif %}
 
+      {% if page.summary %}
+        <h3 class="section-subheading">
+          {{ page.summary }}
+        </h3>
+      {% endif %}
+
       {% if page.image %}
         <div class="page-hero mt-4 mb-4">
           <img

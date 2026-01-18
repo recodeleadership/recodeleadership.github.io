@@ -24,6 +24,7 @@
 /* Archive item itself */
 .archive-item {
   display: flex;
+  align-items: center; // vertically balances image + text
   gap: 1rem;
   padding: 1rem;
   border: 1px solid #e0e6ed;
@@ -32,13 +33,19 @@
 }
 
 .archive-image {
-  flex: 0 0 120px;
+  flex: 0 0 220px; // was 120px — makes image meaningfully larger
+  height: 140px;  // gives the image presence on desktop
+  overflow: hidden;
+  border-radius: 6px;
 
   img {
     width: 100%;
-    border-radius: 4px;
+    height: 100%;
+    object-fit: cover; // THIS is the key for 1920x1080 images
+    display: block;
   }
 }
+
 
 .archive-content {
   flex: 1;
@@ -79,5 +86,12 @@
 @media (max-width: 767px) {
   .archive-item {
     flex-direction: column;
+    align-items: stretch;
+  }
+
+  .archive-image {
+    width: 100%;
+    height: 180px;
   }
 }
+
