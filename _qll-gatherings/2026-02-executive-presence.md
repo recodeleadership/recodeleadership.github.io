@@ -3,7 +3,7 @@ layout: page
 title: Executive Presence
 slug: 2026-02-executive-presence
 date: 2026-02-11
-summary: Exploring the tension between wanting to be seen and wanting to stay true to ourselves as quiet leaders.
+summary: Exploring the meaning of executive presence.
 image: /assets/img/quiet-leaders-lab/2026-02-executive-presence.jpg
 cta_event:
   type: luma
