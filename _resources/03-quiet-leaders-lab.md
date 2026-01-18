@@ -19,4 +19,4 @@ Gatherings may include guided reflection, shared learning, and open conversation
 
 Interested in future Quiet Leaders Lab gatherings?
 
-### [👉 Subscribe to receive gentle updates and invitations when sessions are available.](http://luma.com/quietleaderslab)
+### [👉 Explore past and upcoming gatherings.](resources/quiet-leaders-lab)
