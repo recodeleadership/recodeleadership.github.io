@@ -41,7 +41,7 @@
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover; // THIS is the key for 1920x1080 images
+    object-fit: contain; // THIS is the key for 1920x1080 images
     display: block;
   }
 }
@@ -92,6 +92,10 @@
   .archive-image {
     width: 100%;
     height: 180px;
+
+    img {
+      object-fit: cover;
+    }
   }
 }
 
