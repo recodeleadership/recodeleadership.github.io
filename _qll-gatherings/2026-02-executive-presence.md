@@ -7,32 +7,32 @@ summary: Exploring the tension between wanting to be seen and wanting to stay tr
 image: /assets/img/quiet-leaders-lab/2026-02-executive-presence.jpg
 cta_event:
   type: luma
-  url: https://luma.com/event/evt-8kViRcmae6YX47m
+  url: https://luma.com/event/evt-cpHxXtdm9Cgqz7n
   text: Register for this gathering
 
 ---
 
 ## About this gathering
 
-Visibility can feel deeply uncomfortable for quiet leaders.
+This month’s focus is **Executive Presence**.
 
-There’s often a pull to stay focused on the work, support others, and avoid the spotlight — and at the same time, a growing awareness that being unseen can limit impact, recognition, and growth.
+What does executive presence mean to *you*?
 
-In this session, we explored how visibility doesn’t have to mean being louder, faster, or more performative — and what it *can* look like when it’s grounded and intentional.
+​Many quiet leaders receive feedback that we “lack executive presence” or “leadership potential.” When we hear this, it can feel like an invisible ceiling — something undefined yet powerful — standing between us and our next step.
 
----
+​In this session, we’ll gently explore:
+- ​How executive presence is defined — by us and by others
+- ​The gap between how our leadership is experienced internally and how it’s perceived externally
+- ​What feels true, misaligned, or unclear about common expectations of executive presence
+- ​Where pressure, assumptions, or cultural norms may be shaping this feedback
 
-## Reflection questions
+​Rather than trying to “fix” ourselves, we’ll slow down and notice what’s actually happening — and what kind of presence feels most authentic and sustainable for us.
 
-- Where do I already show up in quiet but meaningful ways?
-- What stories do I tell myself about visibility?
-- What kind of visibility feels aligned — not forced — right now?
-- What’s one small, safe step toward being seen?
+​We’ll spend time:
+- ​Checking in
+- ​Exploring the question through gentle, facilitated quiet reflection
+- ​Identifying a small, personal experiment to carry into the coming month
 
----
+​This is not a workshop or training. There’s no fixing, no pressure to speak, and no expectation to arrive with answers.
 
-## Resources shared
-
-- Slides from the session  
-- Community discussion notes  
-- Optional journaling prompts
+​It’s a shared space to notice, reflect, and experiment gently — alongside other quiet leaders.
