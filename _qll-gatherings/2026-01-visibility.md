@@ -47,8 +47,7 @@ As we reflected, we explored questions such as:
 - What assumptions do you hold about visibility?
 - What values feel in tension with being visible?
 
-In our sharing, we named some common challenges many quiet leaders experience.
-There is often a deep desire to create space for others and to be intentional about where and how we show up. Our strengths are sometimes visible — and yet, at the same time, we can feel that our leadership is underestimated or misunderstood. We shared the experience of not being recognized in ways that truly reflect the depth and strength of their leadership.
+In our sharing, we named several challenges that resonate deeply with many quiet leaders. We often feel a strong pull to create space for others and to be thoughtful about where and how we show up. Even when our strengths are visible, our leadership may still be underestimated or misunderstood. Over time, that lack of recognition can run so deep that when our strengths are finally named, we may struggle to fully see or trust them ourselves.
 
 We closed by designing a small experiment for the coming month:
 - What is one small experiment you can try this month to relate to visibility in a way that feels more at ease and more true to you?
