@@ -16,6 +16,6 @@ This resource is especially helpful if you’re navigating uncertainty, feeling 
 
 This framework comes from a closing keynote I delivered at GovLoop’s NextGen Summit in October 2025, during a time of significant uncertainty for federal employees. It was designed to help government leaders reconnect with what grounds them amid shutdowns, transitions, and declining morale.
 
-### [🎥 Watch the recording](https://academy.govloop.com/watch/NosWAHsgss7UkGzYGLbmfb)
+### [🎥 Watch the recording](https://drive.google.com/file/d/1e6hDf5Gr6qayAkvMAUcH35wDPrYKCMA8/view?usp=sharing)
 
 ### [📝 Download the worksheet](https://docs.google.com/document/d/1Ci-PnSw34yV9dL5pYFzEzbHxiGO2Wg28xwJ8j9sGgv8/edit)
