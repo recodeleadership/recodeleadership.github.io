@@ -22,13 +22,13 @@ document.getElementById("page-top").className="bg-light";
         {% assign top_link = site.baseurl | append: "/#" | append: part %}
         <a href="{{ site.baseurl }}/#"{{ part }}></a>{{ part | replace:'-',' ' | capitalize }}</a>
         {% assign url_accum = url_accum | append: "/" | append: part %}
-      {% elsif not forloop.last %}
+      {% elsif forloop.last %}
+        <span class="breadcrumb-separator">→</span>
+        <span class="breadcrumb-current">{{ part | replace:'-',' ' | capitalize }}</span>
+      {% else %}
         <span class="breadcrumb-separator">→</span>
         {% assign url_accum = url_accum | append: "/" | append: part %}
         <a href="{{ site.baseurl }}{{ url_accum }}/">{{ part | replace:'-',' ' | capitalize }}</a>
-      {% else %}
-        <span class="breadcrumb-separator">→</span>
-        <span class="breadcrumb-current">{{ part | replace:'-',' ' | capitalize }}</span>
       {% endif %}
 
     {% endfor %}
