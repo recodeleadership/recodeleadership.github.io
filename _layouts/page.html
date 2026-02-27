@@ -15,18 +15,18 @@ document.getElementById("page-top").className="bg-light";
   {% if path_parts.size > 0 %}
   <nav class="page-breadcrumb" aria-label="Breadcrumb">
     {% assign url_accum = site.baseurl %}
-    url_accum = {% url_accum %}
+    url_accum = {{ url_accum }}
     {% for part in path_parts %}
       part: {{ part}}<br>
       {% if forloop.first %}
         <a href="{{ site.baseurl }}/#"{{ part }}></a>{{ part | replace:'-',' ' | capitalize }}</a>
         {% assign url_accum = url_accum | append: "/" | append: part %}
-        in first url_accum = {% url_accum %}
+        in first url_accum = {{ url_accum }}
       {% elsif forloop.last == false %}
         <span class="breadcrumb-separator">→</span>
         {% assign url_accum = url_accum | append: "/" | append: part %}
         <a href="{{ url_accum }}/">{{ part | replace:'-',' ' | capitalize }}</a>
-        in other url_accum = {% url_accum %}
+        in other url_accum = {{ url_accum }}
       {% endif %}
 
     {% endfor %}
