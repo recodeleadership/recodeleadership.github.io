@@ -40,6 +40,7 @@ document.getElementById("page-top").className="bg-light";
           <a href="{{ site.baseurl }}/#{{ part }}">
             {{ title }}
           </a>
+          {% assign url_accum = url_accum | append:'/' | append:part %}
         {% else %}
           {% assign url_accum = url_accum | append:'/' | append:part %}
           <span class="breadcrumb-separator">→</span>
