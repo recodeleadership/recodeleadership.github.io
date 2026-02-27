@@ -10,31 +10,32 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <div class="container page-section" id="pagecontainer">
-  {% comment %}
-  Generic breadcrumbs:
-  - Split the page URL by '/'
-  - First segment is top-level (links to homepage anchor)
-  - Each subsequent segment becomes a crumb linking to its page
-  - Automatically works for any depth
-  {% endcomment %}
-
   {% assign path_parts = page.url | split: '/' | reject: '' %}
 
   {% if path_parts.size > 0 %}
   <nav class="page-breadcrumb" aria-label="Breadcrumb">
     {% assign url_accum = "" %}
+    
     {% for part in path_parts %}
-      {% assign url_accum = url_accum | append: "/" | append: part %}
+      {% assign is_last = forloop.last %}
       
       {% if forloop.first %}
-        <a href="/#{{ part }}">{{ part | replace:'-',' ' | capitalize }}</a>
+        {% assign top_link = site.baseurl | append: "/#" | append: part %}
+        {% if is_last %}
+          <span>{{ part | replace:'-',' ' | capitalize }}</span>
+        {% else %}
+          <a href="{{ top_link }}">{{ part | replace:'-',' ' | capitalize }}</a>
+        {% endif %}
+      {% elsif is_last %}
+        <span class="breadcrumb-current">{{ part | replace:'-',' ' | capitalize }}</span>
       {% else %}
+        {% assign url_accum = url_accum | append: "/" | append: part %}
         <span class="breadcrumb-separator">→</span>
-        <a href="{{ url_accum }}/">{{ part | replace:'-',' ' | capitalize }}</a>
+        <a href="{{ site.baseurl }}{{ url_accum }}/">{{ part | replace:'-',' ' | capitalize }}</a>
       {% endif %}
     {% endfor %}
   </nav>
-  {% endif %}  
+  {% endif %}
 
   <!-- Page Header -->
   <div class="row">
