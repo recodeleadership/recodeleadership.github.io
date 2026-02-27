@@ -14,12 +14,11 @@ document.getElementById("page-top").className="bg-light";
 
   {% if path_parts.size > 0 %}
   <nav class="page-breadcrumb" aria-label="Breadcrumb">
-    {% assign url_accum = "" %}
+    {% assign url_accum = site.baseurl %}
     
     {% for part in path_parts %}
-      
+      part: {{ part}}<br>
       {% if forloop.first %}
-        {% assign top_link = site.baseurl | append: "/#" | append: part %}
         <a href="{{ site.baseurl }}/#"{{ part }}></a>{{ part | replace:'-',' ' | capitalize }}</a>
         {% assign url_accum = url_accum | append: "/" | append: part %}
       {% elsif forloop.last %}
