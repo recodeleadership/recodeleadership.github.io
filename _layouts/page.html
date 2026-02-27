@@ -32,7 +32,8 @@ document.getElementById("page-top").className="bg-light";
         {% assign label = part | replace:'-',' ' | split:' ' %}
         {% assign title = "" %}
         {% for word in label %}
-          {% assign title = title | append: word | capitalize | append: " " %}
+          {% assign capitalized_word = word | capitalize %}
+          {% assign title = title | append: capitalized_word | append: " " %}
         {% endfor %}
         {% assign title = title | strip %}
 
