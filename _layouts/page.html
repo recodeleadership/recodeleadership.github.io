@@ -10,6 +10,31 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <div class="container page-section" id="pagecontainer">
+  {% comment %}
+  Generic breadcrumbs:
+  - Split the page URL by '/'
+  - First segment is top-level (links to homepage anchor)
+  - Each subsequent segment becomes a crumb linking to its page
+  - Automatically works for any depth
+  {% endcomment %}
+
+  {% assign path_parts = page.url | split: '/' | reject: '' %}
+
+  {% if path_parts.size > 0 %}
+  <nav class="page-breadcrumb" aria-label="Breadcrumb">
+    {% assign url_accum = "" %}
+    {% for part in path_parts %}
+      {% assign url_accum = url_accum | append: "/" | append: part %}
+      
+      {% if forloop.first %}
+        <a href="/#{{ part }}">{{ part | replace:'-',' ' | capitalize }}</a>
+      {% else %}
+        <span class="breadcrumb-separator">→</span>
+        <a href="{{ url_accum }}/">{{ part | replace:'-',' ' | capitalize }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+  {% endif %}  
 
   <!-- Page Header -->
   <div class="row">

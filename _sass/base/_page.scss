@@ -100,3 +100,36 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+/* =========================
+   Page Breadcrumb
+   ========================= */
+
+.page-breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  color: #6c757d;
+  text-align: left;
+
+  a {
+    color: #6c757d;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: #4a10bc;
+    }
+  }
+}
+
+.breadcrumb-separator {
+  margin: 0 0.5rem;
+  color: #adb5bd;
+}
+
+@media (max-width: 767px) {
+  .page-breadcrumb {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+}
