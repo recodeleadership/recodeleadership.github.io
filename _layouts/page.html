@@ -11,31 +11,46 @@ document.getElementById("page-top").className="bg-light";
 
 <div class="container page-section" id="pagecontainer">
 
-  {% assign path_parts = page.url | split:'/' | reject:'' %}
-  
+  {% assign raw_parts = page.url | split:'/' %}
+  {% assign path_parts = "" | split: "" %}
+
+  {% for p in raw_parts %}
+    {% assign trimmed = p | strip %}
+    {% if trimmed != "" %}
+      {% assign path_parts = path_parts | push: trimmed %}
+    {% endif %}
+  {% endfor %}
+
   {% if path_parts.size > 1 %}
   <nav class="page-breadcrumb" aria-label="Breadcrumb">
-    
+
     {% assign url_accum = site.baseurl %}
-    
+
     {% for part in path_parts %}
       {% unless forloop.last %}
-        
+
+        {% assign label = part | replace:'-',' ' | split:' ' %}
+        {% assign title = "" %}
+        {% for word in label %}
+          {% assign title = title | append: word | capitalize | append: " " %}
+        {% endfor %}
+        {% assign title = title | strip %}
+
         {% if forloop.first %}
           <a href="{{ site.baseurl }}/#{{ part }}">
-            {{ part | replace:'-',' ' | capitalize }}
+            {{ title }}
           </a>
         {% else %}
           {% assign url_accum = url_accum | append:'/' | append:part %}
           <span class="breadcrumb-separator">→</span>
           <a href="{{ url_accum }}/">
-            {{ part | replace:'-',' ' | capitalize }}
+            {{ title }}
           </a>
         {% endif %}
-        
+
       {% endunless %}
     {% endfor %}
-    
+
   </nav>
   {% endif %}
 
