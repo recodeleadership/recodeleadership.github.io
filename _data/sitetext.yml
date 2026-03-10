@@ -30,6 +30,9 @@ en: &DEFAULT_EN
         url: "services/amplifying-your-strengths"
         desc: "A focused coaching experience designed to help you clarify your strengths, see your blind spots, and take action right away."
         #icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Quiet Leader Deep Dive (50-minute 1:1) ➜"
+        url: "services/quiet-leader-deep-dive"
+        desc: "A focused coaching experience designed to help you move from reflection to meaningful action."
       - title: "RISE 1:1 Coaching (3 or 6 Months) ➜"
         url: "services/rise"
         desc: "A deeper journey for quiet leaders ready to grow their presence, visibility, and confidence -- without sacrificing their calm, integrity, or values."
