@@ -12,7 +12,9 @@ hero_bg: light
 
 No time slots available at the moment? Please [join the waitlist here](https://forms.gle/GP1AywsUxDHbrqS86), and I’ll personally let you know when new sessions open up.
 
-Sometimes the reflection is clear.
+### Where You Are Now
+
+Sometimes the reflection is clear.  
 But the next step isn’t.
 
 This session is designed to help you bridge that gap.
@@ -21,8 +23,8 @@ You’ve spent time thinking about your leadership — noticing patterns, streng
 
 Maybe you even designed an experiment to try — either through [Quiet Leaders Lab](/resources/quiet-leaders-lab/) or on your own.
 
-But when the month goes by, the experiment doesn’t quite happen.
-It feels heavier than expected.
+But when the month goes by, the experiment doesn’t quite happen.  
+It feels heavier than expected.  
 Or you’re not sure where to start.
 
 The **Quiet Leader Deep Dive** is a focused 1:1 session to help you move from reflection into action.
@@ -42,6 +44,7 @@ This session may be helpful if you:
 - Are looking for a thoughtful space to translate insight into action
 
 You don’t need to have attended [Quiet Leaders Lab](/resources/quiet-leaders-lab/).
+
 Anyone who wants to **examine their leadership more closely and take a meaningful next step** is welcome.
 
 ### What we’ll do together
@@ -63,9 +66,6 @@ We’ll shape a small, realistic step you can take over the coming month.
 The goal isn’t to force change.
 It’s to create **a shift that feels possible and true to you**.
 
-### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
-<br>
-
 ### What you’ll walk away with
 
 - A clearer understanding of what has been getting in the way
@@ -73,19 +73,21 @@ It’s to create **a shift that feels possible and true to you**.
 - A small step that feels doable, not overwhelming
 
 Many quiet leaders already have the insight.
+
 Sometimes they simply need space and a partner who truly sees them to work through it and make the next step visible.
 
 ### Session Details
 
-**Length**: 50 minutes
-**Format**: Virtual (Zoom / Google Meet)
+**Length**: 50 minutes  
+**Format**: Virtual (Zoom / Google Meet)  
 **Investment**: $198
 
 ### Book a Session
 
 If you’d like support moving from reflection to action, you’re welcome to schedule a Quiet Leader Deep Dive.
 
-[Book your session →](https://tidycal.com/recodeleadership/quiet-leader-deep-dive-session)
+### 👉 [{{ page.cta_text }}]({{ page.cta_link }})
+<br>
 
 If you haven’t yet joined Quiet Leaders Lab, a free monthly gathering for quiet leaders to explore leadership that feels more at ease and more true to ourselves, I invite you to come to our next gathering. [Check out our upcoming and past gathering →](https://www.recodeleadership.com/resources/quiet-leaders-lab/)
 
