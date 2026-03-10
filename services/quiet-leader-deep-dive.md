@@ -74,7 +74,7 @@ It’s to create **a shift that feels possible and true to you**.
 
 Many quiet leaders already have the insight.
 
-Sometimes they simply need space and a partner who truly sees them to work through it and make the next step visible.
+Sometimes they simply **need space and a partner who truly sees them to work through it and make the next step visible**.
 
 ### Session Details
 
