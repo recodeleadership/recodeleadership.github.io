@@ -150,7 +150,7 @@ No time slots available at the moment? Please [join the waitlist here](https://f
 
 **What if I truly can’t afford this?**
 
- If you deeply resonate but can’t make the investment right now, I keep a few sliding-scale spots available. Please reach out in this sliding scale request form if this speaks to you.
+ If you deeply resonate but can’t make the investment right now, I keep a few sliding-scale spots available. Please reach out in [this sliding scale request form](https://forms.gle/ozwneGi6j5bDcjnj7) if this speaks to you.
 
 **Can’t I just take the test and buy the report and get the same value without the coaching session?**
 

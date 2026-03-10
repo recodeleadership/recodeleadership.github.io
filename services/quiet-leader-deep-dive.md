@@ -109,7 +109,7 @@ If you haven’t yet joined Quiet Leaders Lab, a free monthly gathering for quie
 
 **What if I truly can’t afford this?**
 
- If you deeply resonate but can’t make the investment right now, I keep a few sliding-scale spots available. Please reach out in this sliding-scale request form if this speaks to you.
+ If you deeply resonate but can’t make the investment right now, I keep a few sliding-scale spots available. Please reach out in [this sliding-scale request form](https://forms.gle/ozwneGi6j5bDcjnj7) if this speaks to you.
 
 **Can’t I just design and do the experiment myself without the coaching session?**
 
