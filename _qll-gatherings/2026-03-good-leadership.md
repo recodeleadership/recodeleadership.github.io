@@ -179,14 +179,14 @@ I hear that.
 
 For many quiet leaders, this is where things get stuck.
 
-This is why I created the [**Quiet Leader Deep Dive**](/services/quiet-leader-deep-dive/)—a focused 50-minute 1:1 session where we work together to design a clear, realistic next step aligned with how you want to lead.
+This is why I created the [**Quiet Leader Deep Dive**](/services/quiet-leader-deep-dive)—a focused 50-minute 1:1 session where we work together to design a clear, realistic next step aligned with how you want to lead.
 
-If this resonates and you’d like dedicated support to turn insight into action, you’re welcome to [schedule a session here](/services/quiet-leader-deep-dive/).
+If this resonates and you’d like dedicated support to turn insight into action, you’re welcome to [schedule a session here](/services/quiet-leader-deep-dive).
 
 ---
 
-Good leadership is not about becoming louder.  
-It’s about being grounded, acting with care, and showing up when it matters—in your own way.
+*Good leadership is not about becoming louder.*  
+*It’s about being grounded, acting with care, and showing up when it matters—in your own way.*
 
 Participants left not with a fixed definition of leadership, but with something more valuable:
 
