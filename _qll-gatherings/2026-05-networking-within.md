@@ -3,7 +3,7 @@ layout: page
 title: Networking Within
 slug: 2026-05-networking-within
 date: 2026-05-13
-summary: Building meaningful relationships within your organization
+summary: Building meaningful relationships within your organization.
 image: /assets/img/quiet-leaders-lab/2026-05-networking-within.jpg
 cta_event:
   type: luma
