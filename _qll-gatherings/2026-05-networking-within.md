@@ -7,7 +7,7 @@ summary: Building meaningful relationships within your organization
 image: /assets/img/quiet-leaders-lab/2026-05-networking-within.jpg
 cta_event:
   type: luma
-  url: https://luma.com/event/evt-SsMxRK9AuWw87oT
+  url: https://luma.com/event/evt-zWbYb3Cl9GATsC5
   text: Register for this gathering
 
 ---
