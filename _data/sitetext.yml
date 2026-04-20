@@ -169,7 +169,7 @@ en: &DEFAULT_EN
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
       - title: "Certified Trauma-Informed Coach"
-        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        url: https://passport.cancred.ca/app/badge/info/40065
         logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
   # clients:
   #   section: clients
@@ -210,8 +210,8 @@ en: &DEFAULT_EN
       
       I currently serve as a board member at the Asian Women Coaching Collective.
       
-      I earned a BA in Computer Science from UC Berkeley, an MS in Software Engineering from Carnegie Mellon University, completed the Professional Coach Training Program Phase 1: Core Essentials at CoachU, and became an Associate Certified Coach (ACC) through the International Coaching Federation. 
-      
+      I earned a BA in Computer Science from UC Berkeley and an MS in Software Engineering from Carnegie Mellon University, completed the Professional Coach Training Program Phase 1: Core Essentials at CoachU, and became an Associate Certified Coach (ACC) through the International Coaching Federation and a Certified Trauma-Informed Coach (TICC) through Moving the Human Spirit.
+
       Throughout my career, I’ve also volunteered my time and expertise to causes supporting underserved communities — work that continues to be deeply meaningful to me.
 
       If you’re ready to lean into your quiet nature and lead from your strengths, you’re in the right place. I’m here to help you do just that.
@@ -602,7 +602,7 @@ es: &DEFAULT_ES
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
       - title: "Certified Trauma-Informed Coach"
-        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        url: https://passport.cancred.ca/app/badge/info/40065
         logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
       # - title: "envato"
       #   url: https://github.com/raviriley/agency-jekyll-theme
@@ -812,7 +812,7 @@ de: &DEFAULT_DE
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
       - title: "Certified Trauma-Informed Coach"
-        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        url: https://passport.cancred.ca/app/badge/info/40065
         logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
       # - title: "envato"
       #   url: https://github.com/raviriley/agency-jekyll-theme
