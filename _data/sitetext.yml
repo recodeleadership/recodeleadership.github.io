@@ -168,6 +168,9 @@ en: &DEFAULT_EN
       - title: "Associate Certified Coach"
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
+      - title: "Certified Trauma-Informed Coach"
+        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
   # clients:
   #   section: clients
   #   max-height: 100px
@@ -598,6 +601,9 @@ es: &DEFAULT_ES
       - title: "Associate Certified Coach"
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
+      - title: "Certified Trauma-Informed Coach"
+        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
       # - title: "envato"
       #   url: https://github.com/raviriley/agency-jekyll-theme
       #   logo: assets/img/clients/envato.jpg
@@ -805,6 +811,9 @@ de: &DEFAULT_DE
       - title: "Associate Certified Coach"
         url: https://www.credly.com/badges/2b0ed60c-aa6b-4e78-b2d2-bd70b4184dea/public_url
         logo: assets/img/credentials/associate-certified-coach-acc.png
+      - title: "Certified Trauma-Informed Coach"
+        url: https://factory.cancred.ca/obv3/credentials/19e288d43bb7abb2a5ee7fe2fb6f1c48951531eb
+        logo: assets/img/credentials/certified-trauma-informed-coach-ticc.png
       # - title: "envato"
       #   url: https://github.com/raviriley/agency-jekyll-theme
       #   logo: assets/img/clients/envato.jpg
