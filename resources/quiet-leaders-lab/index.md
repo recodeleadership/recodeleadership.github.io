@@ -31,13 +31,20 @@ Gatherings may include guided reflection, shared learning, and open conversation
 <div class="archive-section archive-section--upcoming">
   <h2>Upcoming Gatherings</h2>
 
+  {% assign upcoming = site.qll-gatherings
+    | where_exp: "event", "event.date >= site.time"
+    | sort: "date" %}
+
   <div class="archive-list">
-    {% assign upcoming = site.qll-gatherings
-      | where_exp: "event", "event.date >= site.time"
-      | sort: "date" %}
-    {% for event in upcoming %}
-      {% include qll-archive-item.html event=event %}
-    {% endfor %}
+    {% if upcoming.size > 0 %}
+      {% for event in upcoming %}
+        {% include qll-archive-item.html event=event %}
+      {% endfor %}
+    {% else %}
+      <p class="archive-empty-message">
+        We’re preparing future gatherings. Subscribe to the event calendar above for updates.
+      </p>
+    {% endif %}
   </div>
 </div>
 
